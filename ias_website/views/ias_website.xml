@@ -1,0 +1,1086 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vim:fdn=3:
+-->
+<openerp>
+    <data>
+        <!-- css styles for the theme -->
+        <template id="theme_ias" name="Theme IAS">
+            <link id="bootstrap_css" rel='stylesheet' href='/web/static/lib/bootstrap/css/bootstrap.css' t-ignore="true"/>
+             <!-- Font Awesome -->
+            <link href="/ias_website/static/src/css/font-awesome.css" rel="stylesheet"/>
+            <!-- Bootstrap -->
+            <link href="/ias_website/static/src/css/bootstrap.css" rel="stylesheet"/>
+            <!-- Slick slider -->
+            <link rel="stylesheet" type="text/css" href="/ias_website/static/src/css/slick.css"/>
+            <!-- Fancybox slider -->
+            <link rel="stylesheet" href="/ias_website/static/src/css/jquery.fancybox.css" type="text/css" media="screen" />
+            <!-- Animate css -->
+            <link rel="stylesheet" type="text/css" href="/ias_website/static/src/css/animate.css"/>
+             <!-- Theme color -->
+            <link id="switcher" href="/ias_website/static/src/css/theme-color/default.css" rel="stylesheet"/>
+            <!-- Boostrap-plugins -->
+            <link href="/ias_website/static/src/plugins/bootstrap-fileinput/css/fileinput.css" media="all" rel="stylesheet" type="text/css" />
+            <!-- Preloader -->
+            <link href="/ias_website/static/src/css/preloader.css" rel="stylesheet"/>
+            <!-- Main Style -->
+            <link href="/ias_website/static/src/css/style.css" rel="stylesheet"/>
+            <!-- Team Phonot Style -->
+            <link href="/ias_website/static/src/css/photo.css" rel="stylesheet"/>
+             <!-- Favicon -->
+            <link rel="shortcut icon" type="image/icon" href="/ias_website/static/src/images/favicon.ico"/>
+
+
+            <!-- Fonts -->
+            <!-- Open Sans for body font -->
+            <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+            <!-- Raleway for Title -->
+            <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'/>
+            <!-- Pacifico for 404 page   -->
+            <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'/>
+
+            <!-- <link href="/web/css/im_livechat.external_lib" rel="stylesheet"/> -->
+
+            <link href="/ias_website/static/src/plugins/bootstrap-fileinput/css/fileinput.css"/>
+
+        </template>
+
+
+        <!-- Javascript dependencies -->
+        <template id="assets_ias_frontend" name="Website IAS assets">
+            <!-- Odoo Chat
+            <script src="/web/js/im_livechat.external_lib" type="text/javascript"></script>
+            <script src="/im_livechat/loader/ias_website/1" type="text/javascript"></script> -->
+            <!-- initialize jQuery Library -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+            <!-- Bootstrap -->
+            <script src="/ias_website/static/src/js/bootstrap.js"></script>
+            <!-- Slick Slider -->
+            <script type="text/javascript" src="/ias_website/static/src/js/slick.js"></script>
+            <!-- Counter -->
+            <script type="text/javascript" src="/ias_website/static/src/js/waypoints.js"></script>
+            <script type="text/javascript" src="/ias_website/static/src/js/jquery.counterup.js"></script>
+            <!-- mixit slider -->
+            <script type="text/javascript" src="/ias_website/static/src/js/jquery.mixitup.js"></script>
+            <!-- Add fancyBox -->
+            <script type="text/javascript" src="/ias_website/static/src/js/jquery.fancybox.pack.js"></script>
+            <!-- Wow animation -->
+            <script type="text/javascript" src="/ias_website/static/src/js/wow.js"></script>
+            <!-- Custom js -->
+            <script type="text/javascript" src="/ias_website/static/src/js/custom.js"></script>
+            <!-- Bootstrap Upload -->
+            <script type="text/javascript" src="/ias_website/static/src/plugins/bootstrap-fileinput/js/fileinput.min.js"/>
+            <!-- Bootstrap Locale -->
+            <script type="text/javascript" src="/ias_website/static/src/plugins/bootstrap-fileinput/js/locales/es.js"/>
+
+        </template>
+
+        <template id="theme_menu" name="Menu Theme">
+            <!-- Start menu section -->
+            <section id="menu-area">
+            <nav class="navbar navbar-default main-navbar" role="navigation">
+              <div class="container">
+                <div class="navbar-header">
+                  <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <!-- LOGO -->
+                   <a class="navbar-brand logo" href="/ias"><img src="/ias_website/static/src/images/log_ias.png" alt="logo"/></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                  <ul id="top-menu" class="nav navbar-nav main-nav menu-scroll">
+                    <li><a href="#about">NOSOTROS</a></li>
+                    <li><a href="#service">SERVICIOS</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#team">EQUIPO</a></li>
+                    <li class="active cv"><a href="#postulate">Postúlate</a></li>
+                    <li><a href="#contact">CONTÁCTANOS</a></li>
+                  </ul>
+                </div><!--/.nav-collapse -->
+                <div class="search-area">
+                  <div class="lang-panel" t-if="(request.website_multilang and len(languages) &gt; 1)">
+                    <div t-foreach="languages" t-as="lg">
+                        <a t-attf-href="#{lg[0]}/ias">
+                            <img t-attf-src="/ias_website/static/src/images/#{lg[0]}.jpg" width="100%" height="100%"  style="border-radius: 100%;"/>
+                        </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+            </section>
+            <!-- End menu section -->
+        </template>
+        <template id="my_team" name="Team Section">
+            <!-- Start Team action -->
+            <section id="team">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="team-area">
+                    <div class="title-area" style="margin-bottom: 60px">
+                      <h2 class="tittle">Conoce a nuestro equipo</h2>
+                      <span class="tittle-line"></span>
+                      <p>Somos el principal valor de nuestra compañía.</p>
+                    </div>
+                    <div class="title-area">
+                      <h2 class="tittle">Administrativo</h2>
+                      <span class="tittle-line"></span>
+                    </div>
+                    <div class="team-content" style="margin-bottom: 60px">
+                        <ul class="team-grid">
+                        <li>
+                        <div id="content" class="team-item">
+                            <div class="foto"><img src="/ias_website/static/src/images/team/David.jpg" /></div>
+                            <div class="frase"><img src="/ias_website/static/src/images/team/David.png" /></div>
+                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                        </div>
+                          <div class="team-address">
+                            <p>David</p>
+                            <span>Gerente General</span>
+                          </div>
+                        </li>
+                        <li>
+                        <div id="content" class="team-item">
+                            <div class="foto"><img src="/ias_website/static/src/images/team/Rosalba.jpg" /></div>
+                            <div class="frase"><img src="/ias_website/static/src/images/team/Rosalba.png" /></div>
+                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                        </div>
+                          <div class="team-address">
+                            <p>Rosalba</p>
+                            <span>Asistente Administrativo</span>
+                          </div>
+                        </li>
+                        <li>
+                        <div id="content" class="team-item">
+                            <div class="foto"><img src="/ias_website/static/src/images/team/Lina.jpg" /></div>
+                            <div class="frase"><img src="/ias_website/static/src/images/team/Lina.png" /></div>
+                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                        </div>
+                          <div class="team-address">
+                            <p>Lina</p>
+                            <span>Desarrolladora de Negocios</span>
+                          </div>
+                        </li>
+                        <li>
+                        <div id="content" class="team-item">
+                            <div class="foto"><img src="/ias_website/static/src/images/team/Yuerly.jpg" /></div>
+                            <div class="frase"><img src="/ias_website/static/src/images/team/Yuerly.png" /></div>
+                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                        </div>
+                          <div class="team-address">
+                            <p>Yuerly</p>
+                            <span>Desarrolladora de Negocios</span>
+                          </div>
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="title-area" style="margin-top:30px;">
+                      <h2 class="tittle">Analistas y Desarrolladores FullStack</h2>
+                      <span class="tittle-line"></span>
+                    </div>
+                    <!-- Start team content -->
+                    <div class="team-content">
+                      <ul class="team-grid">
+                        <li>
+                        <div id="content" class="team-item">
+                            <div class="foto"><img src="/ias_website/static/src/images/team/Arlex.jpg" /></div>
+                            <div class="frase"><img src="/ias_website/static/src/images/team/Arlex.png" /></div>
+                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                        </div>
+                          <div class="team-address">
+                            <p>Arlex</p>
+                          </div>
+                        </li>
+                        <li>
+                        <div id="content" class="team-item">
+                            <div class="foto"><img src="/ias_website/static/src/images/team/Andres.jpg" /></div>
+                            <div class="frase"><img src="/ias_website/static/src/images/team/Andres.png" /></div>
+                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                        </div>
+                          <div class="team-address">
+                            <p>Andrés</p>
+                          </div>
+                        </li>
+                        <li>
+                        <div id="content" class="team-item">
+                            <div class="foto"><img src="/ias_website/static/src/images/team/mafe.jpg" /></div>
+                            <div class="frase"><img src="/ias_website/static/src/images/team/mafe.png" /></div>
+                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                        </div>
+                          <div class="team-address">
+                            <p>Mafe</p>
+                          </div>
+                        </li>
+                        <li>
+                        <div id="content" class="team-item">
+                            <div class="foto"><img src="/ias_website/static/src/images/team/Jaime.jpg" /></div>
+                            <div class="frase"><img src="/ias_website/static/src/images/team/Jaime.png" /></div>
+                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                        </div>
+                          <div class="team-address">
+                            <p>Jaime</p>
+                          </div>
+                        </li>
+                        <li>
+                        <div id="content" class="team-item">
+                            <div class="foto"><img src="/ias_website/static/src/images/team/gabriel.jpg" /></div>
+                            <div class="frase"><img src="/ias_website/static/src/images/team/Gabriel.png" /></div>
+                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                        </div>
+                          <div class="team-address">
+                            <p>Gabriel</p>
+                          </div>
+                        </li>
+                          <li>
+                        <div id="content" class="team-item">
+                            <div class="foto"><img src="/ias_website/static/src/images/team/Shirly.jpg" /></div>
+                            <div class="frase"><img src="/ias_website/static/src/images/team/Shirly.png" /></div>
+                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                        </div>
+                          <div class="team-address">
+                            <p>Shirly</p>
+                          </div>
+                        </li>
+                          <li>
+                        <div id="content" class="team-item">
+                            <div class="foto"><img src="/ias_website/static/src/images/team/Juanfer.jpg" /></div>
+                            <div class="frase"><img src="/ias_website/static/src/images/team/Juanfer.png" /></div>
+                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                        </div>
+                          <div class="team-address">
+                            <p>Juan Fernando</p>
+                          </div>
+                        </li>
+                        <li>
+                        <div id="content" class="team-item">
+                            <div class="foto"><img src="/ias_website/static/src/images/team/Guti.jpg" /></div>
+                            <div class="frase"><img src="/ias_website/static/src/images/team/Guti.png" /></div>
+                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                        </div>
+                          <div class="team-address">
+                            <p>Jhoan G.</p>
+                          </div>
+                        </li>
+                        <li>
+                        <div id="content" class="team-item">
+                            <div class="foto"><img src="/ias_website/static/src/images/team/Oscar.jpg" /></div>
+                            <div class="frase"><img src="/ias_website/static/src/images/team/Oscar.png" /></div>
+                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                        </div>
+                          <div class="team-address">
+                            <p>Oscar</p>
+                          </div>
+                        </li>
+                        <li>
+                        <div id="content" class="team-item">
+                            <div class="foto"><img src="/ias_website/static/src/images/team/Wilfer.jpg" /></div>
+                            <div class="frase"><img src="/ias_website/static/src/images/team/Wilfer.png" /></div>
+                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                        </div>
+                          <div class="team-address">
+                            <p>Wilfer</p>
+                          </div>
+                        </li>
+                        <li>
+                        <div id="content" class="team-item">
+                            <div class="foto"><img src="/ias_website/static/src/images/team/Tatiana.jpg" /></div>
+                            <div class="frase"><img src="/ias_website/static/src/images/team/Tatiana.png" /></div>
+                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                        </div>
+                          <div class="team-address">
+                            <p>Tatiana</p>
+                          </div>
+                        </li>
+                        <li>
+                        <div id="content" class="team-item">
+                            <div class="foto"><img src="/ias_website/static/src/images/team/Emerson.jpg" /></div>
+                            <div class="frase"><img src="/ias_website/static/src/images/team/Emerson.png" /></div>
+                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                        </div>
+                          <div class="team-address">
+                            <p>Emerson</p>
+                          </div>
+                        </li>
+                        <li>
+                        <div id="content" class="team-item">
+                            <div class="foto"><img src="/ias_website/static/src/images/team/Cristian.jpg" /></div>
+                            <div class="frase"><img src="/ias_website/static/src/images/team/Cristian.png" /></div>
+                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                        </div>
+                          <div class="team-address">
+                            <p>Cristian</p>
+                          </div>
+                        </li>
+                        <li>
+                        <div id="content" class="team-item">
+                            <div class="foto"><img src="/ias_website/static/src/images/team/Sergio.jpg" /></div>
+                            <div class="frase"><img src="/ias_website/static/src/images/team/Sergio.png" /></div>
+                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                        </div>
+                          <div class="team-address">
+                            <p>Sergio</p>
+                          </div>
+                        </li>
+                        <li>
+                        <div id="content" class="team-item">
+                            <div class="foto"><img src="/ias_website/static/src/images/team/Jose.jpg" /></div>
+                            <div class="frase"><img src="/ias_website/static/src/images/team/Jose.png" /></div>
+                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                        </div>
+                          <div class="team-address">
+                            <p>José</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- End team content -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            </section>
+            <!-- End Team action -->
+        </template>
+
+        <template id="body_website" name="Homepage Body" page="True">
+            <t t-call="ias_website.theme_menu"/>
+            <!-- Start about section -->
+            <section id="about">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="about-area">
+                    <div class="row">
+                      <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="about-right wow fadeInRight">
+                          <div class="title-area">
+                            <h2 class="tittle">Sobre <span>I.A.S.</span></h2>
+                            <span class="tittle-line"></span>
+                            <p>Somos especialistas en desarrollo de software a la medida. Desde hace 13 años ayudamos a las empresas a ser más competitivas.
+                                Es nuestra premisa de buscar maximizar los beneficios del uso de aplicaciones
+                                la que han hecho que grandes compañías del país optimicen sus procesos de negocio,
+                                buscando siempre que sus objetivos empresariales vayan en sintonía con los lineamientos técnicos.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <!-- Start welcome area -->
+                  <div class="welcome-area">
+                    <div class="welcome-content">
+                      <ul class="wc-table">
+                        <li>
+                          <div class="single-wc-content wow fadeInUp">
+                            <div><img src="/ias_website/static/src/images/it/java259.png" width="50%" height="50%"/></div>
+                            <h4 class="wc-tittle">Java</h4>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="single-wc-content wow fadeInUp">
+                            <div><img src="/ias_website/static/src/images/it/net259.png" width="50%" height="50%"/></div>
+                            <h4 class="wc-tittle">.Net Framework</h4>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="single-wc-content wow fadeInUp">
+                            <div><img src="/ias_website/static/src/images/it/js-logo.png" width="50%" height="50%"/></div>
+                            <h4 class="wc-tittle">Javascript</h4>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="single-wc-content wow fadeInUp">
+                            <div><img src="/ias_website/static/src/images/it/Android259.png" width="50%" height="50%"/></div>
+                            <h4 class="wc-tittle">Android</h4>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="single-wc-content wow fadeInUp">
+                            <div><img src="/ias_website/static/src/images/it/mac259.png" width="50%" height="50%"/></div>
+                            <h4 class="wc-tittle">IOS</h4>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="single-wc-content wow fadeInUp">
+                            <div><img src="/ias_website/static/src/images/it/db259.png" width="50%" height="50%"/></div>
+                            <h4 class="wc-tittle">SQL/PL SQL</h4>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- End welcome area -->
+                </div>
+              </div>
+            </div>
+            </section>
+            <!-- End about section -->
+
+            <!-- Start call to action -->
+            <section id="call-to-action">
+            <div class="separator">
+            </div>
+            <div class="call-to-overlay">
+              <div class="container">
+                <div class="call-to-content wow fadeInUp">
+                    <h2 class="header-slide" style="margin-top: 40px;">
+                      <span><div style="color: #37c6f5; display: inline-block;">I</div>NNOV<div style="color: #37c6f5; display: inline-block;">A</div>DORE<div style="color: #37c6f5; display: inline-block;">S</div></span>
+                      <span>PROFES<div style="color: #37c6f5; display: inline-block;">I</div>ON<div style="color: #37c6f5; display: inline-block;">A</div>LE<div style="color: #37c6f5; display: inline-block;">S</div></span>
+                      <span>CONF<div style="color: #37c6f5; display: inline-block;">IA</div>BLE<div style="color: #37c6f5; display: inline-block;">S</div></span>
+                      <span>APAS<div style="color: #37c6f5; display: inline-block;">I</div>ON<div style="color: #37c6f5; display: inline-block;">A</div>DO<div style="color: #37c6f5; display: inline-block;">S</div></span>
+                      <span>SOMOS <div style="color: #37c6f5; display: inline-block;">I</div>DE<div style="color: #37c6f5; display: inline-block;">AS</div></span>
+                      <span>SOMOS <div style="color: #37c6f5; display: inline-block;">IAS</div></span>
+                    </h2>
+                </div>
+              </div>
+            </div>
+            </section>
+            <!-- End call to action -->
+            <!-- Start service section -->
+            <section id="service">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="service-area">
+                    <div class="title-area">
+                      <h2 class="tittle">Servicios</h2>
+                      <span class="tittle-line"></span>
+                      <p></p>
+                    </div>
+                    <!-- service content -->
+                    <div class="service-content">
+                        <ul class="service-table">
+                            <li class="col-md-3 col-sm-6">
+                              <div class="single-service wow slideInUp">
+                                <span class="fa fa-edit service-icon"></span>
+                                <h4 class="service-title">Desarrollo a la medida</h4>
+                                <p>Lo acompañamos en la creación de soluciones de negocio con planeación, definición, diseño y construcción de aplicaciones empresariales ajustadas a la medida.</p>
+                              </div>
+                            </li>
+                            <li class="col-md-3 col-sm-6">
+                              <div class="single-service wow slideInUp">
+                                <span class="fa fa-mobile service-icon"></span>
+                                <h4 class="service-title">Desarrollo Móvil</h4>
+                                <p style="font-size:23px;">Realizamos excelentes aplicaciones móviles basados
+                                    en los últimos conceptos de usabilidad.</p>
+                              </div>
+                            </li>
+                            <li class="col-md-3 col-sm-6">
+                              <div class="single-service wow slideInUp">
+                                <span class="fa fa-sitemap service-icon"></span>
+                                <h4 class="service-title">Desarrollo Web 2.0</h4>
+                                <p>Planeamos, diseñamos e implementamos portales web bajo las mejores prácticas de TI.</p>
+                              </div>
+                            </li>
+                            <li class="col-md-3 col-sm-6">
+                              <div class="single-service wow slideInUp">
+                                <span class="fa fa-users service-icon"></span>
+                                <h4 class="service-title">Outsourcing - Staffing</h4>
+                                <p>Proveemos excelentes profesionales para su empresa, que
+                                le prestaran el apoyo necesario para lograr sus objectivos.</p>
+                              </div>
+                            </li>
+                            <li class="col-md-3 col-sm-6">
+                              <div class="single-service wow slideInUp">
+                                <span class="fa fa-cogs service-icon"></span>
+                                <h4 class="service-title">Mantemiento y Soporte</h4>
+                                <p>Le brindamos a su empresa la continuidad del negocio con
+                                    procesos de alta calidad.</p>
+                              </div>
+                            </li>
+                            <li class="col-md-3 col-sm-6">
+                              <div class="single-service wow slideInUp">
+                                <span class="fa fa-user-secret service-icon"></span>
+                                <h4 class="service-title">Gestión de Proyectos</h4>
+                                <p>Aseguramos la implementación de sus aplicaciones por medio de expertos certificados que ayudan a realizar la gestión por medio de un aporte metodológico, preciso y personalizado.</p>
+                              </div>
+                            </li>
+                            <li class="col-md-3 col-sm-6">
+                              <div class="single-service wow slideInUp">
+                                <span class="fa fa-comment-o service-icon"></span>
+                                <h4 class="service-title">Consultoría</h4>
+                                <p>Lo acompañamos en sus procesos brindandole el apoyo profesional
+                                    que necesitas para avanzar en su negocio.</p>
+                              </div>
+                            </li>
+                            <li class="col-md-3 col-sm-6">
+                              <div class="single-service wow slideInUp">
+                                <span class="fa fa-building service-icon"></span>
+                                <h4 class="service-title">Odoo ERP</h4>
+                                <p>Un software de gestión con todo lo que necesita y una experiencia de calidad suprema para el usuario.</p>
+                              </div>
+                            </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End service section -->
+            <!-- Start Portfolio section -->
+            <section id="portfolio">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="portfolio-area">
+                    <div class="title-area">
+                      <h2 class="tittle">Algunos casos de éxito</h2>
+                      <span class="tittle-line"></span>
+                    </div>
+                    <!-- Portfolio content -->
+                    <div class="from-blog-content">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <article class="single-from-blog" style="border-color: black !important;">
+                            <div class="blog-title">
+                              <h2><img src="/ias_website/static/src/images/bancolombia-logo.png" width="100%" height="40%"/></h2>
+                            </div>
+                            <p style="text-align:justify">Nuestros expertos han logrado por más de 11 años realizar a través de nuevas aplicaciones y el mantenimiento evolutivo de las mismas, que Bancolombia mejore la eficiencia en la aprobación de crédito y tarjetas de crédito bajo escenarios de negocio complejos.
+Además logró mejorar sus niveles de servicios dando respuestas más oportunas a los reclamos de los  usuarios.</p>
+                            <div class="blog-footer">
+                            </div>
+                          </article>
+                        </div>
+                        <div class="col-md-4">
+                          <article class="single-from-blog">
+                            <div class="blog-title">
+                                <h2><img src="/ias_website/static/src/images/sura-logo.jpg" width="100%" height="40%"/></h2>
+                            </div>
+                            <p style="text-align:justify">• Lideramos equipos de desarrollo mediante la metodología scrum para que aplicaciones como SOAT después de 9 años tengan éxito, continuidad y  mantenimiento evolutivo año tras año.</p>
+                            <p style="text-align: justify">• Creamos aplicaciones que soportan  altas operaciones y gestión de tareas de diagnóstico y demás servicios prestados en los centros de AUTOSURA del país.</p>
+                            <div class="blog-footer">
+                            </div>
+                          </article>
+                        </div>
+                        <div class="col-md-4">
+                          <article class="single-from-blog">
+                            <div class="blog-title">
+                                <h2><img src="/ias_website/static/src/images/logo-mova.png" width="100%" height="10%"/></h2>
+                            </div>
+                            <p style="text-align:justify">Realizamos para Parque Explora una plataforma que permite la integración de no solo maestros, sino que cualquiera interesado en la iniciativa MOVA, por medio de gestión de eventos, noticias y recursos que permiten, gracias algoritmos de recomendación, encontrar el contenido más apropiado para cualquier usuario.</p>
+                            <div class="blog-footer">
+                            </div>
+                          </article>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-4">
+                          <article class="single-from-blog">
+                            <div class="blog-title">
+                                <center><h2><img src="/ias_website/static/src/images/udem.png" width="50%" height="25%"/></h2></center>
+                            </div>
+                            <p style="text-align:justify">• Nuestros expertos capacitaron un equipo de desarrollo de la UdeM y continuamos haciendo en conjunto mantenimiento y ejecución de nuevas aplicaciones y proyectos.</p>
+                            <p style="text-align:justify">• Realizamos una aplicación que permite a la Universidad de Medelllin conocer los riesgos de no permanencia de un profesional dentro de la universidad en los diferentes periodos.
+                                Utilizamos algoritmia que incluye variables de tipo cualitativo y cuantitativo  como: materias perdidas , canceladas, faltas de asistencia entre otros.</p>
+                            <div class="blog-footer">
+                            </div>
+                          </article>
+                        </div>
+                        <div class="col-md-4">
+                          <article class="single-from-blog">
+                            <div class="blog-title">
+                                <h2><img src="/ias_website/static/src/images/auteco-logo.png" width="50%" height="35%"/></h2>
+                            </div>
+                            <p style="text-align:justify">Sistema de Auteco Optima 2</p>
+                            <p style="text-align:justify">Software desarrollado para soportar los
+                                procesos de ensamble, programación de ensamble y programación de pintura para motocicletas y
+                                motocarros. El proyecto tuvo una duración de 5 meses.</p>
+                            <div class="blog-footer">
+                            </div>
+                          </article>
+                        </div>
+                        <div class="col-md-4">
+                          <article class="single-from-blog">
+                            <div class="blog-title">
+                                <center><h2><img src="/ias_website/static/src/images/metro-logo.png" width="20%" height="10%"/></h2></center>
+                            </div>
+                            <p style="text-align:justify">Sistema de control a la compra del Tiquete Estudiantil para el Metro de Medellín</p>
+                            <p style="text-align:justify">El sistema para venta de Tiquetes Estudiantiles Metro es un aplicativo web mediante
+                                el cual se permite al Metro de Medellín gestionar este plan social controlando su uso por parte de los estudiantes
+                                del área metropolitana.</p>
+                            <div class="blog-footer">
+                            </div>
+                          </article>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            </section>
+            <!-- End Portfolio section -->
+            <!-- Start Team action -->
+            <t t-call="ias_website.my_team"/>
+            <!-- Start Contact section -->
+            <section id="postulate">
+                <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <center><h2 class="title-postulate">Postúlate</h2></center>
+                    </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-5 col-sm-5 col-xs-12">
+                        <p style="text-align: justify;">En I.A.S. estamos comprometidos en construir un sector IT con mayor calidad y compromiso, esto con el fin de brindarle a nuestros clientes experiencias satisfactorias.
+                            </p>
+                        <p style="text-align: justify;">Únase a nosotros y ayudenos a transformar el mercado empresarial.</p>
+                      </div>
+                      <div class="col-md-1 col-sm-1"></div>
+                      <div class="col-md-5 col-sm-5 col-xs-12">
+                          <iframe width="100%" height="300px" src="https://www.youtube.com/embed/KFmLVpyvKRo" frameborder="0" allowfullscreen="allowfullscreen"/>
+                      </div>
+                  </div>
+                  <div class="row">
+                   <div class="col-md-5 col-sm-5 col-xs-12">
+                        <form action="">
+                          <div>
+                            <label class="control-label">Seleccionar archivo</label>
+                            <input id="input-cv" type="file" class="file"/>
+                          </div>
+                        </form>
+                    </div>
+                  </div>
+                </div>
+            </section>
+
+            <!-- Start counter section -->
+            <section id="counter">
+            <div class="separator-counter">
+            </div>
+            <div class="counter-overlay">
+              <div class="container">
+                <div class="row">
+                </div>
+              </div>
+            </div>
+            </section>
+            <!-- End counter section -->
+
+            <!-- Start Pricing Table section -->
+            <section id="pricing-table">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div>
+                    <div class="title-area">
+                        <h2 class="tittle"><img src="/ias_website/static/src/images/odoo-logo.png" height="90%" alt="img"/></h2>
+                        <span class="tittle-line"></span>
+                    </div>
+                    <p/>
+                    <div>
+                        <p>Odoo es un sistema de ERP integrado que brinda un conjunto de soluciones tecnológicas para la gestión completa de cualquier empresa, automatizando, simplificando, registrando y fusionando las diferentes áreas inherentes a cualquier modelo de negocio.</p>
+                        <dl class="dl-horizontal">
+                            <dt>
+                                Gestiona
+                            </dt>
+                            <dd>Inventario, compras, ventas, contabilidad, facturación, gestión de proyectos, manufactura y más.</dd>
+                            <dt>Impulsa</dt>
+                                <dd>CRM, punto de venta, generador de cotizaciones.</dd>
+                            <dt>Comercia</dt>
+                            <dd>
+                                Construcción de sitio web, tienda online (e-commerce).
+                            </dd>
+                        </dl>
+                        <div class="title-area">
+                            <h3 class="tittle">Beneficios:</h3>
+                            <span class="tittle-line"></span>
+                        </div>
+                        <p>
+                            <li>Más de 2000 aplicaciones de negocio certificadas</li>
+                            <li>Código fuente compartido en Odoo</li>
+                            <li>Capacidad de adaptación a negocios crecientes y cambiantes</li>
+                            <li>Aplicaciones de negocio 100% basados en la Web</li>
+                        </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </section>
+            <!-- End Pricing Table section -->
+
+            <!-- Start Testimonial section -->
+            <section id="testimonial">
+            <img src="/ias_website/static/src/images/testimonial-bg.jpg" alt="img"/>
+            <div class="counter-overlay">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <!-- Start Testimonial area -->
+                    <div class="testimonial-area">
+                      <div class="title-area">
+                        <h2 class="tittle">¿Que dicen nuestros clientes de nosotros?</h2>
+                        <span class="tittle-line"></span>
+                      </div>
+                      <div class="testimonial-conten">
+                        <!-- Start testimonial slider -->
+                        <div class="testimonial-slider">
+                          <!-- single slide -->
+                          <div class="single-slide">
+                            <p>I.A.S. se ha destacado por su profesionalismo y compromiso durante màs de 5 años han trabajo de la mano y han hecho crecer a la universidad de Medellin.</p>
+                            <div class="single-testimonial">
+                              <img class="testimonial-thumb" src="/ias_website/static/src/images/testimonial-image1.png" alt="img"/>
+                              <p>Olga Stella Quintero</p>
+                              <span>Jefe División Informática UdeM</span>
+                            </div>
+                          </div>
+                          <!-- single slide -->
+                          <div class="single-slide">
+                            <p>Durante 13 años I.A.S. ha demostrado ser una empresa seria, confiable y con una capacidad tecnica que vale la pena resaltar.</p>
+                            <div class="single-testimonial">
+                              <img class="testimonial-thumb" src="/ias_website/static/src/images/testimonial-image2.png" alt="img"/>
+                              <p>Carlos Gayon</p>
+                              <span>Director de TI, Seguros Generales, Sudamericana</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </section>
+            <!-- End Testimonial section -->
+
+            <!-- Start from blog section -->
+
+            <!-- End from blog section -->
+
+            <section id="client">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="client-area">
+                    <ul class="client-table">
+                      <li><img src="/ias_website/static/src/images/noel.png" alt="client logo" width="150px" height="150px"/></li>
+                      <li><img src="/ias_website/static/src/images/udem.png" alt="client logo" width="150px" height="150px"/></li>
+                      <li><img src="/ias_website/static/src/images/UdeA.png" alt="client logo" width="150px" height="150px"/></li>
+                      <li><img src="/ias_website/static/src/images/sura2.png" alt="client logo" width="150px" height="150px"/></li>
+                      <li><img src="/ias_website/static/src/images/Ingredion.png" alt="client logo" width="150px" height="150px"/></li>
+                      <li><img src="/ias_website/static/src/images/fenalco.png" alt="client logo" width="150px" height="150px"/></li>
+                      <li><img src="/ias_website/static/src/images/explora.png" alt="client logo" width="150px" height="150px"/></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </section>
+            <!-- Start Contact section -->
+            <section id="contact">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                  <div class="contact-left wow fadeInLeft">
+                    <h2>Contáctanos</h2>
+                     <address class="single-address">
+                      <h4>Oficina Principal:</h4>
+                      <p>Carrera 82 C No 30 A 120</p>
+                      <p>Centro Comercial Los Molinos.</p>
+                      <p>Oficina 1409.</p>
+                      <p>Medellín - Colombia</p>
+                    </address>
+                     <address class="single-address">
+                      <h4>Telefono</h4>
+                      <p>Telefono fijo: (4) 6051565</p>
+                    </address>
+                     <address class="single-address">
+                      <h4>E-Mail</h4>
+                      <p>ias@ias.com.co</p>
+                    </address>
+                  </div>
+                </div>
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                  <div class="contact-right wow fadeInRight">
+                    <h2>Enviar un Mensaje</h2>
+                    <form action="" class="contact-form">
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Nombre"/>
+                      </div>
+                      <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email"/>
+                      </div>
+                      <div class="form-group">
+                        <textarea class="form-control"></textarea>
+                      </div>
+                      <button type="submit" data-text="SUBMIT" class="button button-default"><span>ENVIAR</span></button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </section>
+            <!-- End Contact section -->
+        </template>
+
+        <!-- main template -->
+        <template id="website.layout" name="IAS Website">&lt;!DOCTYPE html&gt;
+            <html t-att-lang="lang and lang.replace('_', '-')"
+                  t-att-data-website-id="website.id if editable and website else None"
+                  t-att-data-editable="'1' if editable else None"
+                  t-att-data-translatable="'1' if translatable else None"
+                  t-att-data-view-xmlid="xmlid if editable else None"
+                  t-att-data-main-object="repr(main_object) if editable else None"
+                  t-att-data-oe-company-name="res_company.name">
+            <head>
+            <meta charset="utf-8" />
+            <t t-if="main_object and 'website_meta_title' in main_object and not title">
+                <t t-set="title" t-value="main_object.website_meta_title"/>
+            </t>
+            <t t-if="main_object and 'name' in main_object and not title and not additional_title">
+                <t t-set="additional_title" t-value="main_object.name"/>
+            </t>
+            <t t-if="not title">
+                <t t-set="title"><t t-if="additional_title"><t t-raw="additional_title"/> | </t><t t-esc="(website or res_company).name"/></t>
+            </t>
+
+            <meta name="viewport" content="initial-scale=1"/>
+            <meta name="description" t-att-content="main_object and 'website_meta_description' in main_object
+                and main_object.website_meta_description or website_meta_description"/>
+            <meta name="keywords" t-att-content="main_object and 'website_meta_keywords' in main_object
+                and main_object.website_meta_keywords or website_meta_keywords"/>
+            <meta name="generator" content="Odoo"/>
+            <title><t t-esc="title"/></title>
+
+            <!-- Load languages -->
+            <t t-set="languages" t-value="website.get_languages() if website else None"/>
+            <t t-if="request and request.website_multilang and website">
+                <t t-foreach="website.get_alternate_languages(request.httprequest)" t-as="lg">
+                    <link rel="alternate" t-att-hreflang="lg['hreflang']" t-att-href="lg['href']"/>
+                </t>
+            </t>
+
+            <t t-call="ias_website.theme_ias"/>
+            <t t-call="ias_website.assets_ias_frontend"/>
+
+            </head>
+
+            <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+            <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+            <!--[if lt IE 9]>
+              <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+              <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+            <![endif]-->
+
+            <body>
+
+            <!-- SCROLL TOP BUTTON -->
+            <a class="scrollToTop" href="#"><i class="fa fa-chevron-up"></i></a>
+            <!-- END SCROLL TOP BUTTON -->
+
+            <!-- Start header section -->
+            <header id="header">
+                <div id="CarouselHeader" class="carousel slide header-ias" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#CarouselHeader" data-slide-to="0" class="active"></li>
+                        <li data-target="#CarouselHeader" data-slide-to="1"></li>
+                        <li data-target="#CarouselHeader" data-slide-to="2"></li>
+                        <li data-target="#CarouselHeader" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item  active">
+                            <div class="img-logo-ias" style="text-align: cener">
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div><h2>Nuestros especialistas lograrán por medio de software de calidad que su empresa trabaje más eficientemente</h2></div>
+                        </div>
+
+                        <div class="item">
+                            <div><h2>Brindamos innovación, experiencia y calidad en nuestras soluciones</h2></div>
+                        </div>
+
+                        <div class="item">
+                            <div><h2>Nuestras soluciones reducen costos operativos, simplifican operaciones y cambian la manera de trabajar de las organizaciones</h2></div>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#CarouselHeader" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="right carousel-control" href="#CarouselHeader" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+                </div>
+            </header>
+            <!-- End header section -->
+            <div id="wrawrap" class="display: none;">
+
+            </div>
+            <main>
+                <t t-if="home">
+                    <t t-call="ias_website.body_website"/>
+                </t>
+                <t t-if="not home">
+                <t t-call="ias_website.theme_menu" />
+                <div class="container">
+                    <div class="row">
+                      <div class="col-md-3">
+                      </div>
+                      <div class="col-md-6">
+                         <div class="pricing-table-area">
+                            <div class="title-area">
+                              <h4 class="tittle">Sign In</h4>
+                              <span class="tittle-line"></span>
+                            </div>
+                            <div class="pricing-table-content">
+                                <t t-raw="0"/>
+                            </div>
+                         </div>
+                      </div>
+                      <div class="col-md-3">
+                      </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3"/>
+                        <div class="col-md-6">
+                            <div class="welcome-content">
+                                <ul class="wc-table">
+                                    <li>
+                                      <div class="single-wc-content wow fadeInUp">
+                                        <span class="fa fa-users wc-icon"></span>
+                                        <h4 class="wc-tittle">Employees</h4>
+                                        <p>Team management</p>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="single-wc-content wow fadeInUp">
+                                        <span class="fa fa-line-chart wc-icon"></span>
+                                        <h4 class="wc-tittle">CRM / Sales</h4>
+                                        <p>Sales management</p>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="single-wc-content wow fadeInUp">
+                                        <span class="fa fa-globe wc-icon"></span>
+                                        <h4 class="wc-tittle">Website</h4>
+                                        <p>Website management</p>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="single-wc-content wow fadeInUp">
+                                        <span class="fa fa-commenting-o wc-icon"></span>
+                                        <h4 class="wc-tittle">Social</h4>
+                                        <p>Followers and comments</p>
+                                      </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3"/>
+                    </div>
+                </div>
+                </t>
+            </main>
+            <!-- Start Footer -->
+            <footer id="footer">
+            <div class="footer-top">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="footer-top-area">
+                        <a class="footer-logo" href="#"><img src="/ias_website/static/src/images/logo.png" alt="Logo"/></a>
+                      <div class="footer-social">
+                        <a class="facebook" href="https://www.facebook.com/ias.software/"><span class="fa fa-facebook"></span></a>
+                        <a class="twitter" href="https://twitter.com/IASColombia"><span class="fa fa-twitter"></span></a>
+                        <a class="youtube" href="#"><span class="fa fa-youtube"></span></a>
+                        <a class="linkedin" href="https://www.linkedin.com/company/i-a-s-ingenieria-aplicaciones-y-software?trk=top_nav_home"><span class="fa fa-linkedin"></span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-bottom">
+              <p>Designed by <a rel="nofollow" href="http://www.markups.io/">MarkUps.io</a></p>
+              <p>Copyright &amp;copy; <span t-field="res_company.name" itemprop="name">Company name</span></p>
+              <p>Powered by <a class="label label-danger" href="http://www.odoo.com/page/website-builder">Odoo</a></p>
+            </div>
+            </footer>
+            <!-- End Footer -->
+
+            </body>
+            </html>
+
+        </template>
+
+         <template id="web.login_layout" name="Login Layout">
+            <t t-call="website.layout">
+                <t t-set="head">
+                    <link href="/web/static/src/css/base.css" rel="stylesheet"/>
+                    <link href="/web/static/lib/bootstrap/css/bootstrap.css" rel="stylesheet"/>
+                </t>
+                <t t-set="body_classname" t-value="'oe_single_form'"/>
+                <div class="oe_single_form_container modal-content">
+                    <div class="oe_single_form_logo">
+                        <img t-attf-src="/web/binary/company_logo{{ '?dbname='+db if db else '' }}"/>
+                    </div>
+                    <hr/>
+                    <t t-raw="0"/>
+
+                    <div class="oe_single_form_footer" t-if="not disable_footer">
+                        <t t-if="not disable_database_manager">
+                            <a class="oe_login_manage_db" t-attf-href="/web/database/manager{{ '?debug' if debug else '' }}">Manage Databases</a>
+                            <span class="oe_footer_seperator"> | </span>
+                        </t>
+                        <a href="https://www.odoo.com" target="_blank">Powered by <span>Odoo</span></a>
+                    </div>
+                </div>
+            </t>
+        </template>
+
+        <template id="web.login" name="Login">
+            <t t-call="web.login_layout">
+                <form class="oe_login_form" role="form" t-attf-action="/web/login{{ '?debug' if debug else '' }}" method="post" onsubmit="this.action = this.action + location.hash">
+
+                    <t t-call="web.database_select"/>
+
+                    <div class="form-group field-login">
+                        <label for="login" class="control-label">Email</label>
+                        <input type="text" name="login" t-att-value="login" id="login" class="form-control" required="required" autofocus="autofocus"/>
+                    </div>
+
+                    <div class="form-group field-password">
+                        <label for="password" class="control-label">Password</label>
+                        <input type="password" name="password" id="password" class="form-control" required="required" t-att-autofocus="'autofocus' if login else None"/>
+                    </div>
+
+                    <p class="alert alert-danger" t-if="error">
+                        <t t-esc="error"/>
+                    </p>
+                    <p class="alert alert-success" t-if="message">
+                        <t t-esc="message"/>
+                    </p>
+
+                    <input type="hidden" name="redirect" t-att-value="redirect"/>
+                    <div class="clearfix oe_login_buttons">
+                        <button type="submit" class="btn btn-primary">Log in</button>
+                    </div>
+
+                </form>
+            </t>
+        </template>
+
+        <template id="website.login_layout" inherit_id="web.login_layout" name="Website Login Layout">
+            <xpath expr="t" position="replace">
+                <t t-call="website.layout">
+                    <div class="oe_website_login_container" t-raw="0"/>
+                </t>
+            </xpath>
+        </template>
+
+    </data>
+ </openerp>

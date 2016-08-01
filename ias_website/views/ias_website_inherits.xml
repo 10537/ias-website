@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vim:fdn=3:
+-->
+<openerp>
+    <data>
+        <delete model="ir.ui.view" id="website.layout_footer_copyright"/>
+        <delete model="ir.ui.view" id="website.layout_logo_show"/>
+        <delete model="ir.ui.view" id="website.editor_head"/>
+        <delete model="ir.ui.view" id="website.show_sign_in"/>
+        <delete model="ir.ui.view" id="website.footer_default"/>
+        <delete model="ir.ui.view" id="website.footer_custom"/>
+
+
+<template id="http_error">
+    <t t-call="website.layout">
+        <div id="wrap">
+            <div class="oe_structure">
+                <h1 class="container mt32"><t t-esc="status_code"/>: <t t-esc="status_message"/></h1>
+            </div>
+
+            <t t-if="editable or request.debug">
+                <t t-call="website.http_error_debug"/>
+            </t>
+        </div>
+    </t>
+</template>
+
+<template id="403">
+    <t t-call="website.layout">
+        <div id="wrap">
+            <div class="container">
+                <h1 class="mt32">403: Forbidden</h1>
+                <p>The page you were looking for could not be authorized.</p>
+                <p>Maybe you were looking for one of these popular pages ?</p>
+                <ul>
+                    <li><a href="/">Homepage</a></li>
+                    <li><a href="/page/website.contactus/">Contact Us</a></li>
+                </ul>
+            </div>
+            <t t-if="editable or request.debug">
+                <t t-call="website.http_error_debug"/>
+            </t>
+        </div>
+    </t>
+</template>
+
+<template id="404">
+    <t t-call="website.layout">
+        <div id="wrap">
+            <t t-raw="0"/>
+            <div class="oe_structure oe_empty">
+                <div class="container">
+                    <h1 class="mt32">404: Page not found!</h1>
+                    <p>
+                        The page you were looking for could not be found; it is possible you have
+                        typed the address incorrectly, but it has most probably been removed due
+                        to the recent website reorganisation.
+                    </p>
+                    <p>Maybe you were looking for one of these popular pages ?</p>
+                    <ul>
+                        <li><a href="/">Homepage</a></li>
+                        <li><a href="/page/website.contactus/">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <t t-if="request.debug">
+                <t t-call="website.http_error_debug"/>
+            </t>
+        </div>
+    </t>
+</template>
+
+
+<template id="website.aboutus" name="About us" page="True">
+                <div class="oe_structure" id="footer">
+                </div>
+</template>
+
+
+    </data>
+ </openerp>

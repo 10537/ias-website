@@ -1,0 +1,66 @@
+#content{
+    width: 220px;
+    height: 220px;
+    margin: 0px 10px 80px 10px;
+    display: inline-block;
+}
+
+#content .frase{
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+#content .frase img{
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
+    float: right;
+    -webkit-transition: width 0.5s, height 0.5s;
+    transition: width 0.5s, height 0.5s;
+}
+
+#content .foto{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
+    z-index: 2;
+}
+
+#content .foto img{
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
+    float: right;
+    -webkit-transition: width 0.5s, height 0.5s;
+    transition: width 0.5s, height 0.5s;
+}
+
+#content .aro{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    z-index: 3;
+}
+
+#content .aro img{
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
+    float: right;
+    opacity: 0.4;
+    -webkit-transition: width 0.5s, height 0.5s;
+    transition: width 0.5s, height 0.5s;
+}
+
+#content:hover .foto img, #content:hover .aro img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    float: right;
+    -webkit-transition: width 0.5s, height 0.5s;
+    transition: width 0.5s, height 0.5s;
+}
