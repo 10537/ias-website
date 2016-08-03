@@ -24,8 +24,6 @@
             <link href="/ias_website/static/src/css/preloader.css" rel="stylesheet"/>
             <!-- Main Style -->
             <link href="/ias_website/static/src/css/style.css" rel="stylesheet"/>
-            <!-- Team Phonot Style -->
-            <link href="/ias_website/static/src/css/photo.css" rel="stylesheet"/>
              <!-- Favicon -->
             <link rel="shortcut icon" type="image/icon" href="/ias_website/static/src/images/favicon.ico"/>
 
