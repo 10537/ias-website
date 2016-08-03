@@ -89,7 +89,7 @@
                     <span class="icon-bar"></span>
                   </button>
                   <!-- LOGO -->
-                   <a class="navbar-brand logo" href="/ias"><img src="/ias_website/static/src/images/log_ias.png" alt="logo"/></a>
+                   <a class="navbar-brand logo" href="/ias"><img alt="imagen" src="/ias_website/static/src/images/log_ias.png" alt="logo"/></a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                   <ul id="top-menu" class="nav navbar-nav main-nav menu-scroll">
@@ -135,9 +135,9 @@
                         <ul class="team-grid">
                         <li>
                         <div id="content" class="team-item">
-                            <div class="foto"><img src="/ias_website/static/src/images/team/David.jpg" /></div>
-                            <div class="frase"><img src="/ias_website/static/src/images/team/David.png" /></div>
-                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                            <div class="foto"><img alt="imagen" src="/ias_website/static/src/images/team/David.jpg" /></div>
+                            <div class="frase"><img alt="imagen" src="/ias_website/static/src/images/team/David.png" /></div>
+                            <div class="aro"><img alt="imagen" src="/ias_website/static/src/images/aro.png" /></div>
                         </div>
                           <div class="team-address">
                             <p>David</p>
@@ -146,9 +146,9 @@
                         </li>
                         <li>
                         <div id="content" class="team-item">
-                            <div class="foto"><img src="/ias_website/static/src/images/team/Rosalba.jpg" /></div>
-                            <div class="frase"><img src="/ias_website/static/src/images/team/Rosalba.png" /></div>
-                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                            <div class="foto"><img alt="imagen" src="/ias_website/static/src/images/team/Rosalba.jpg" /></div>
+                            <div class="frase"><img alt="imagen" src="/ias_website/static/src/images/team/Rosalba.png" /></div>
+                            <div class="aro"><img alt="imagen" src="/ias_website/static/src/images/aro.png" /></div>
                         </div>
                           <div class="team-address">
                             <p>Rosalba</p>
@@ -157,9 +157,9 @@
                         </li>
                         <li>
                         <div id="content" class="team-item">
-                            <div class="foto"><img src="/ias_website/static/src/images/team/Lina.jpg" /></div>
-                            <div class="frase"><img src="/ias_website/static/src/images/team/Lina.png" /></div>
-                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                            <div class="foto"><img alt="imagen" src="/ias_website/static/src/images/team/Lina.jpg" /></div>
+                            <div class="frase"><img alt="imagen" src="/ias_website/static/src/images/team/Lina.png" /></div>
+                            <div class="aro"><img alt="imagen" src="/ias_website/static/src/images/aro.png" /></div>
                         </div>
                           <div class="team-address">
                             <p>Lina</p>
@@ -168,9 +168,9 @@
                         </li>
                         <li>
                         <div id="content" class="team-item">
-                            <div class="foto"><img src="/ias_website/static/src/images/team/Yuerly.jpg" /></div>
-                            <div class="frase"><img src="/ias_website/static/src/images/team/Yuerly.png" /></div>
-                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                            <div class="foto"><img alt="imagen" src="/ias_website/static/src/images/team/Yuerly.jpg" /></div>
+                            <div class="frase"><img alt="imagen" src="/ias_website/static/src/images/team/Yuerly.png" /></div>
+                            <div class="aro"><img alt="imagen" src="/ias_website/static/src/images/aro.png" /></div>
                         </div>
                           <div class="team-address">
                             <p>Yuerly</p>
@@ -188,9 +188,9 @@
                       <ul class="team-grid">
                         <li>
                         <div id="content" class="team-item">
-                            <div class="foto"><img src="/ias_website/static/src/images/team/Arlex.jpg" /></div>
-                            <div class="frase"><img src="/ias_website/static/src/images/team/Arlex.png" /></div>
-                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                            <div class="foto"><img alt="imagen" src="/ias_website/static/src/images/team/Arlex.jpg" /></div>
+                            <div class="frase"><img alt="imagen" src="/ias_website/static/src/images/team/Arlex.png" /></div>
+                            <div class="aro"><img alt="imagen" src="/ias_website/static/src/images/aro.png" /></div>
                         </div>
                           <div class="team-address">
                             <p>Arlex</p>
@@ -198,9 +198,9 @@
                         </li>
                         <li>
                         <div id="content" class="team-item">
-                            <div class="foto"><img src="/ias_website/static/src/images/team/Andres.jpg" /></div>
-                            <div class="frase"><img src="/ias_website/static/src/images/team/Andres.png" /></div>
-                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                            <div class="foto"><img alt="imagen" src="/ias_website/static/src/images/team/Andres.jpg" /></div>
+                            <div class="frase"><img alt="imagen" src="/ias_website/static/src/images/team/Andres.png" /></div>
+                            <div class="aro"><img alt="imagen" src="/ias_website/static/src/images/aro.png" /></div>
                         </div>
                           <div class="team-address">
                             <p>Andrés</p>
@@ -208,9 +208,9 @@
                         </li>
                         <li>
                         <div id="content" class="team-item">
-                            <div class="foto"><img src="/ias_website/static/src/images/team/mafe.jpg" /></div>
-                            <div class="frase"><img src="/ias_website/static/src/images/team/mafe.png" /></div>
-                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                            <div class="foto"><img alt="imagen" src="/ias_website/static/src/images/team/mafe.jpg" /></div>
+                            <div class="frase"><img alt="imagen" src="/ias_website/static/src/images/team/mafe.png" /></div>
+                            <div class="aro"><img alt="imagen" src="/ias_website/static/src/images/aro.png" /></div>
                         </div>
                           <div class="team-address">
                             <p>Mafe</p>
@@ -218,9 +218,9 @@
                         </li>
                         <li>
                         <div id="content" class="team-item">
-                            <div class="foto"><img src="/ias_website/static/src/images/team/Jaime.jpg" /></div>
-                            <div class="frase"><img src="/ias_website/static/src/images/team/Jaime.png" /></div>
-                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                            <div class="foto"><img alt="imagen" src="/ias_website/static/src/images/team/Jaime.jpg" /></div>
+                            <div class="frase"><img alt="imagen" src="/ias_website/static/src/images/team/Jaime.png" /></div>
+                            <div class="aro"><img alt="imagen" src="/ias_website/static/src/images/aro.png" /></div>
                         </div>
                           <div class="team-address">
                             <p>Jaime</p>
@@ -228,9 +228,9 @@
                         </li>
                         <li>
                         <div id="content" class="team-item">
-                            <div class="foto"><img src="/ias_website/static/src/images/team/gabriel.jpg" /></div>
-                            <div class="frase"><img src="/ias_website/static/src/images/team/Gabriel.png" /></div>
-                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                            <div class="foto"><img alt="imagen" src="/ias_website/static/src/images/team/gabriel.jpg" /></div>
+                            <div class="frase"><img alt="imagen" src="/ias_website/static/src/images/team/Gabriel.png" /></div>
+                            <div class="aro"><img alt="imagen" src="/ias_website/static/src/images/aro.png" /></div>
                         </div>
                           <div class="team-address">
                             <p>Gabriel</p>
@@ -238,9 +238,9 @@
                         </li>
                           <li>
                         <div id="content" class="team-item">
-                            <div class="foto"><img src="/ias_website/static/src/images/team/Shirly.jpg" /></div>
-                            <div class="frase"><img src="/ias_website/static/src/images/team/Shirly.png" /></div>
-                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                            <div class="foto"><img alt="imagen" src="/ias_website/static/src/images/team/Shirly.jpg" /></div>
+                            <div class="frase"><img alt="imagen" src="/ias_website/static/src/images/team/Shirly.png" /></div>
+                            <div class="aro"><img alt="imagen" src="/ias_website/static/src/images/aro.png" /></div>
                         </div>
                           <div class="team-address">
                             <p>Shirly</p>
@@ -248,9 +248,9 @@
                         </li>
                           <li>
                         <div id="content" class="team-item">
-                            <div class="foto"><img src="/ias_website/static/src/images/team/Juanfer.jpg" /></div>
-                            <div class="frase"><img src="/ias_website/static/src/images/team/Juanfer.png" /></div>
-                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                            <div class="foto"><img alt="imagen" src="/ias_website/static/src/images/team/Juanfer.jpg" /></div>
+                            <div class="frase"><img alt="imagen" src="/ias_website/static/src/images/team/Juanfer.png" /></div>
+                            <div class="aro"><img alt="imagen" src="/ias_website/static/src/images/aro.png" /></div>
                         </div>
                           <div class="team-address">
                             <p>Juan Fernando</p>
@@ -258,9 +258,9 @@
                         </li>
                         <li>
                         <div id="content" class="team-item">
-                            <div class="foto"><img src="/ias_website/static/src/images/team/Guti.jpg" /></div>
-                            <div class="frase"><img src="/ias_website/static/src/images/team/Guti.png" /></div>
-                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                            <div class="foto"><img alt="imagen" src="/ias_website/static/src/images/team/Guti.jpg" /></div>
+                            <div class="frase"><img alt="imagen" src="/ias_website/static/src/images/team/Guti.png" /></div>
+                            <div class="aro"><img alt="imagen" src="/ias_website/static/src/images/aro.png" /></div>
                         </div>
                           <div class="team-address">
                             <p>Jhoan G.</p>
@@ -268,9 +268,9 @@
                         </li>
                         <li>
                         <div id="content" class="team-item">
-                            <div class="foto"><img src="/ias_website/static/src/images/team/Oscar.jpg" /></div>
-                            <div class="frase"><img src="/ias_website/static/src/images/team/Oscar.png" /></div>
-                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                            <div class="foto"><img alt="imagen" src="/ias_website/static/src/images/team/Oscar.jpg" /></div>
+                            <div class="frase"><img alt="imagen" src="/ias_website/static/src/images/team/Oscar.png" /></div>
+                            <div class="aro"><img alt="imagen" src="/ias_website/static/src/images/aro.png" /></div>
                         </div>
                           <div class="team-address">
                             <p>Oscar</p>
@@ -278,9 +278,9 @@
                         </li>
                         <li>
                         <div id="content" class="team-item">
-                            <div class="foto"><img src="/ias_website/static/src/images/team/Wilfer.jpg" /></div>
-                            <div class="frase"><img src="/ias_website/static/src/images/team/Wilfer.png" /></div>
-                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                            <div class="foto"><img alt="imagen" src="/ias_website/static/src/images/team/Wilfer.jpg" /></div>
+                            <div class="frase"><img alt="imagen" src="/ias_website/static/src/images/team/Wilfer.png" /></div>
+                            <div class="aro"><img alt="imagen" src="/ias_website/static/src/images/aro.png" /></div>
                         </div>
                           <div class="team-address">
                             <p>Wilfer</p>
@@ -288,9 +288,9 @@
                         </li>
                         <li>
                         <div id="content" class="team-item">
-                            <div class="foto"><img src="/ias_website/static/src/images/team/Tatiana.jpg" /></div>
-                            <div class="frase"><img src="/ias_website/static/src/images/team/Tatiana.png" /></div>
-                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                            <div class="foto"><img alt="imagen" src="/ias_website/static/src/images/team/Tatiana.jpg" /></div>
+                            <div class="frase"><img alt="imagen" src="/ias_website/static/src/images/team/Tatiana.png" /></div>
+                            <div class="aro"><img alt="imagen" src="/ias_website/static/src/images/aro.png" /></div>
                         </div>
                           <div class="team-address">
                             <p>Tatiana</p>
@@ -298,9 +298,9 @@
                         </li>
                         <li>
                         <div id="content" class="team-item">
-                            <div class="foto"><img src="/ias_website/static/src/images/team/Emerson.jpg" /></div>
-                            <div class="frase"><img src="/ias_website/static/src/images/team/Emerson.png" /></div>
-                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                            <div class="foto"><img alt="imagen" src="/ias_website/static/src/images/team/Emerson.jpg" /></div>
+                            <div class="frase"><img alt="imagen" src="/ias_website/static/src/images/team/Emerson.png" /></div>
+                            <div class="aro"><img alt="imagen" src="/ias_website/static/src/images/aro.png" /></div>
                         </div>
                           <div class="team-address">
                             <p>Emerson</p>
@@ -308,9 +308,9 @@
                         </li>
                         <li>
                         <div id="content" class="team-item">
-                            <div class="foto"><img src="/ias_website/static/src/images/team/Cristian.jpg" /></div>
-                            <div class="frase"><img src="/ias_website/static/src/images/team/Cristian.png" /></div>
-                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                            <div class="foto"><img alt="imagen" src="/ias_website/static/src/images/team/Cristian.jpg" /></div>
+                            <div class="frase"><img alt="imagen" src="/ias_website/static/src/images/team/Cristian.png" /></div>
+                            <div class="aro"><img alt="imagen" src="/ias_website/static/src/images/aro.png" /></div>
                         </div>
                           <div class="team-address">
                             <p>Cristian</p>
@@ -318,9 +318,9 @@
                         </li>
                         <li>
                         <div id="content" class="team-item">
-                            <div class="foto"><img src="/ias_website/static/src/images/team/Sergio.jpg" /></div>
-                            <div class="frase"><img src="/ias_website/static/src/images/team/Sergio.png" /></div>
-                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                            <div class="foto"><img alt="imagen" src="/ias_website/static/src/images/team/Sergio.jpg" /></div>
+                            <div class="frase"><img alt="imagen" src="/ias_website/static/src/images/team/Sergio.png" /></div>
+                            <div class="aro"><img alt="imagen" src="/ias_website/static/src/images/aro.png" /></div>
                         </div>
                           <div class="team-address">
                             <p>Sergio</p>
@@ -328,9 +328,9 @@
                         </li>
                         <li>
                         <div id="content" class="team-item">
-                            <div class="foto"><img src="/ias_website/static/src/images/team/Jose.jpg" /></div>
-                            <div class="frase"><img src="/ias_website/static/src/images/team/Jose.png" /></div>
-                            <div class="aro"><img src="/ias_website/static/src/images/aro.png" /></div>
+                            <div class="foto"><img alt="imagen" src="/ias_website/static/src/images/team/Jose.jpg" /></div>
+                            <div class="frase"><img alt="imagen" src="/ias_website/static/src/images/team/Jose.png" /></div>
+                            <div class="aro"><img alt="imagen" src="/ias_website/static/src/images/aro.png" /></div>
                         </div>
                           <div class="team-address">
                             <p>José</p>
@@ -380,37 +380,37 @@
                       <ul class="wc-table">
                         <li>
                           <div class="single-wc-content wow fadeInUp">
-                            <div><img src="/ias_website/static/src/images/it/java259.png" width="50%" height="50%"/></div>
+                            <div><img alt="imagen" src="/ias_website/static/src/images/it/java259.png" width="50%" height="50%"/></div>
                             <h4 class="wc-tittle">Java</h4>
                           </div>
                         </li>
                         <li>
                           <div class="single-wc-content wow fadeInUp">
-                            <div><img src="/ias_website/static/src/images/it/net259.png" width="50%" height="50%"/></div>
+                            <div><img alt="imagen" src="/ias_website/static/src/images/it/net259.png" width="50%" height="50%"/></div>
                             <h4 class="wc-tittle">.Net Framework</h4>
                           </div>
                         </li>
                         <li>
                           <div class="single-wc-content wow fadeInUp">
-                            <div><img src="/ias_website/static/src/images/it/js-logo.png" width="50%" height="50%"/></div>
+                            <div><img alt="imagen" src="/ias_website/static/src/images/it/js-logo.png" width="50%" height="50%"/></div>
                             <h4 class="wc-tittle">Javascript</h4>
                           </div>
                         </li>
                         <li>
                           <div class="single-wc-content wow fadeInUp">
-                            <div><img src="/ias_website/static/src/images/it/Android259.png" width="50%" height="50%"/></div>
+                            <div><img alt="imagen" src="/ias_website/static/src/images/it/Android259.png" width="50%" height="50%"/></div>
                             <h4 class="wc-tittle">Android</h4>
                           </div>
                         </li>
                         <li>
                           <div class="single-wc-content wow fadeInUp">
-                            <div><img src="/ias_website/static/src/images/it/mac259.png" width="50%" height="50%"/></div>
+                            <div><img alt="imagen" src="/ias_website/static/src/images/it/mac259.png" width="50%" height="50%"/></div>
                             <h4 class="wc-tittle">IOS</h4>
                           </div>
                         </li>
                         <li>
                           <div class="single-wc-content wow fadeInUp">
-                            <div><img src="/ias_website/static/src/images/it/db259.png" width="50%" height="50%"/></div>
+                            <div><img alt="imagen" src="/ias_website/static/src/images/it/db259.png" width="50%" height="50%"/></div>
                             <h4 class="wc-tittle">SQL/PL SQL</h4>
                           </div>
                         </li>
@@ -542,7 +542,7 @@
                         <div class="col-md-4">
                           <article class="single-from-blog" style="border-color: black !important;">
                             <div class="blog-title">
-                              <h2><img src="/ias_website/static/src/images/bancolombia-logo.png" width="100%" height="40%"/></h2>
+                              <h2><img alt="imagen" src="/ias_website/static/src/images/bancolombia-logo.png" width="100%" height="40%"/></h2>
                             </div>
                             <p style="text-align:justify">Nuestros expertos han logrado por más de 11 años realizar a través de nuevas aplicaciones y el mantenimiento evolutivo de las mismas, que Bancolombia mejore la eficiencia en la aprobación de crédito y tarjetas de crédito bajo escenarios de negocio complejos.
 Además logró mejorar sus niveles de servicios dando respuestas más oportunas a los reclamos de los  usuarios.</p>
@@ -553,7 +553,7 @@ Además logró mejorar sus niveles de servicios dando respuestas más oportunas 
                         <div class="col-md-4">
                           <article class="single-from-blog">
                             <div class="blog-title">
-                                <h2><img src="/ias_website/static/src/images/sura-logo.jpg" width="100%" height="40%"/></h2>
+                                <h2><img alt="imagen" src="/ias_website/static/src/images/sura-logo.jpg" width="100%" height="40%"/></h2>
                             </div>
                             <p style="text-align:justify">• Lideramos equipos de desarrollo mediante la metodología scrum para que aplicaciones como SOAT después de 9 años tengan éxito, continuidad y  mantenimiento evolutivo año tras año.</p>
                             <p style="text-align: justify">• Creamos aplicaciones que soportan  altas operaciones y gestión de tareas de diagnóstico y demás servicios prestados en los centros de AUTOSURA del país.</p>
@@ -564,7 +564,7 @@ Además logró mejorar sus niveles de servicios dando respuestas más oportunas 
                         <div class="col-md-4">
                           <article class="single-from-blog">
                             <div class="blog-title">
-                                <h2><img src="/ias_website/static/src/images/logo-mova.png" width="100%" height="10%"/></h2>
+                                <h2><img alt="imagen" src="/ias_website/static/src/images/logo-mova.png" width="100%" height="10%"/></h2>
                             </div>
                             <p style="text-align:justify">Realizamos para Parque Explora una plataforma que permite la integración de no solo maestros, sino que cualquiera interesado en la iniciativa MOVA, por medio de gestión de eventos, noticias y recursos que permiten, gracias algoritmos de recomendación, encontrar el contenido más apropiado para cualquier usuario.</p>
                             <div class="blog-footer">
@@ -576,7 +576,7 @@ Además logró mejorar sus niveles de servicios dando respuestas más oportunas 
                         <div class="col-md-4">
                           <article class="single-from-blog">
                             <div class="blog-title">
-                                <center><h2><img src="/ias_website/static/src/images/udem.png" width="50%" height="25%"/></h2></center>
+                                <center><h2><img alt="imagen" src="/ias_website/static/src/images/udem.png" width="50%" height="25%"/></h2></center>
                             </div>
                             <p style="text-align:justify">• Nuestros expertos capacitaron un equipo de desarrollo de la UdeM y continuamos haciendo en conjunto mantenimiento y ejecución de nuevas aplicaciones y proyectos.</p>
                             <p style="text-align:justify">• Realizamos una aplicación que permite a la Universidad de Medelllin conocer los riesgos de no permanencia de un profesional dentro de la universidad en los diferentes periodos.
@@ -588,7 +588,7 @@ Además logró mejorar sus niveles de servicios dando respuestas más oportunas 
                         <div class="col-md-4">
                           <article class="single-from-blog">
                             <div class="blog-title">
-                                <h2><img src="/ias_website/static/src/images/auteco-logo.png" width="50%" height="35%"/></h2>
+                                <h2><img alt="imagen" src="/ias_website/static/src/images/auteco-logo.png" width="50%" height="35%"/></h2>
                             </div>
                             <p style="text-align:justify">Sistema de Auteco Optima 2</p>
                             <p style="text-align:justify">Software desarrollado para soportar los
@@ -601,7 +601,7 @@ Además logró mejorar sus niveles de servicios dando respuestas más oportunas 
                         <div class="col-md-4">
                           <article class="single-from-blog">
                             <div class="blog-title">
-                                <center><h2><img src="/ias_website/static/src/images/metro-logo.png" width="20%" height="10%"/></h2></center>
+                                <center><h2><img alt="imagen" src="/ias_website/static/src/images/metro-logo.png" width="20%" height="10%"/></h2></center>
                             </div>
                             <p style="text-align:justify">Sistema de control a la compra del Tiquete Estudiantil para el Metro de Medellín</p>
                             <p style="text-align:justify">El sistema para venta de Tiquetes Estudiantiles Metro es un aplicativo web mediante
@@ -1006,7 +1006,6 @@ Además logró mejorar sus niveles de servicios dando respuestas más oportunas 
               </div>
             </div>
             <div class="footer-bottom">
-              <p>Designed by <a rel="nofollow" href="http://www.markups.io/">MarkUps.io</a></p>
               <p>Copyright &amp;copy; <span t-field="res_company.name" itemprop="name">Company name</span></p>
               <p>Powered by <a class="label label-danger" href="http://www.odoo.com/page/website-builder">Odoo</a></p>
             </div>
