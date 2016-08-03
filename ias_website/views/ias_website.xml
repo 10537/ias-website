@@ -87,7 +87,7 @@
                     <span class="icon-bar"></span>
                   </button>
                   <!-- LOGO -->
-                   <a class="navbar-brand logo" href="/ias"><img src="/ias_website/static/src/images/log_ias.png" alt="logo"/></a>
+                   <a class="navbar-brand logo" href="/"><img src="/ias_website/static/src/images/log_ias.png" alt="logo"/></a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                   <ul id="top-menu" class="nav navbar-nav main-nav menu-scroll">
@@ -102,7 +102,7 @@
                 <div class="search-area">
                   <div class="lang-panel" t-if="(request.website_multilang and len(languages) &gt; 1)">
                     <div t-foreach="languages" t-as="lg">
-                        <a t-attf-href="#{lg[0]}/ias">
+                        <a t-attf-href="#{lg[0]}/">
                             <img t-attf-src="/ias_website/static/src/images/#{lg[0]}.jpg" width="100%" height="100%"  style="border-radius: 100%;"/>
                         </a>
                     </div>
