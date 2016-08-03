@@ -5,8 +5,6 @@
     <data>
         <!-- css styles for the theme -->
         <template id="theme_ias" name="Theme IAS">
-             <!-- Font Awesome -->
-            <link href="/ias_website/static/src/css/font-awesome.css" rel="stylesheet"/>
             <!-- Bootstrap -->
             <link href="/ias_website/static/src/css/bootstrap.css" rel="stylesheet"/>
             <!-- Fancybox slider -->
@@ -26,10 +24,6 @@
             <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'/>
             <!-- Pacifico for 404 page   -->
             <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'/>
-
-            <!-- <link href="/web/css/im_livechat.external_lib" rel="stylesheet"/> -->
-
-            <link href="/ias_website/static/src/plugins/bootstrap-fileinput/css/fileinput.css"/>
 
         </template>
 
