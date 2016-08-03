@@ -674,7 +674,7 @@ Además logró mejorar sus niveles de servicios dando respuestas más oportunas 
                 <div class="col-md-12">
                   <div>
                     <div class="title-area">
-                        <h2 class="tittle"><img alt="imagen" src="/ias_website/static/src/images/odoo-logo.png" height="90%" alt="img"/></h2>
+                        <h2 class="tittle"><img src="/ias_website/static/src/images/odoo-logo.png" height="90%" alt="img"/></h2>
                         <span class="tittle-line"></span>
                     </div>
                     <p/>
@@ -712,7 +712,7 @@ Además logró mejorar sus niveles de servicios dando respuestas más oportunas 
 
             <!-- Start Testimonial section -->
             <section id="testimonial">
-            <img alt="imagen" src="/ias_website/static/src/images/testimonial-bg.jpg" alt="img"/>
+            <img src="/ias_website/static/src/images/testimonial-bg.jpg" alt="img"/>
             <div class="counter-overlay">
               <div class="container">
                 <div class="row">
@@ -764,13 +764,13 @@ Además logró mejorar sus niveles de servicios dando respuestas más oportunas 
                 <div class="col-md-12">
                   <div class="client-area">
                     <ul class="client-table">
-                      <li><img alt="imagen" src="/ias_website/static/src/images/noel.png" alt="client logo" width="150px" height="150px"/></li>
-                      <li><img alt="imagen" src="/ias_website/static/src/images/udem.png" alt="client logo" width="150px" height="150px"/></li>
-                      <li><img alt="imagen" src="/ias_website/static/src/images/UdeA.png" alt="client logo" width="150px" height="150px"/></li>
-                      <li><img alt="imagen" src="/ias_website/static/src/images/sura2.png" alt="client logo" width="150px" height="150px"/></li>
-                      <li><img alt="imagen" src="/ias_website/static/src/images/Ingredion.png" alt="client logo" width="150px" height="150px"/></li>
-                      <li><img alt="imagen" src="/ias_website/static/src/images/fenalco.png" alt="client logo" width="150px" height="150px"/></li>
-                      <li><img alt="imagen" src="/ias_website/static/src/images/explora.png" alt="client logo" width="150px" height="150px"/></li>
+                      <li><img src="/ias_website/static/src/images/noel.png" alt="client logo" width="150px" height="150px"/></li>
+                      <li><img src="/ias_website/static/src/images/udem.png" alt="client logo" width="150px" height="150px"/></li>
+                      <li><img src="/ias_website/static/src/images/UdeA.png" alt="client logo" width="150px" height="150px"/></li>
+                      <li><img src="/ias_website/static/src/images/sura2.png" alt="client logo" width="150px" height="150px"/></li>
+                      <li><img src="/ias_website/static/src/images/Ingredion.png" alt="client logo" width="150px" height="150px"/></li>
+                      <li><img src="/ias_website/static/src/images/fenalco.png" alt="client logo" width="150px" height="150px"/></li>
+                      <li><img src="/ias_website/static/src/images/explora.png" alt="client logo" width="150px" height="150px"/></li>
                     </ul>
                   </div>
                 </div>
@@ -993,7 +993,7 @@ Además logró mejorar sus niveles de servicios dando respuestas más oportunas 
                 <div class="row">
                   <div class="col-md-12">
                     <div class="footer-top-area">
-                        <a class="footer-logo" href="#"><img alt="imagen" src="/ias_website/static/src/images/logo.png" alt="Logo"/></a>
+                        <a class="footer-logo" href="#"><img src="/ias_website/static/src/images/logo.png" alt="Logo"/></a>
                       <div class="footer-social">
                         <a class="facebook" href="https://www.facebook.com/ias.software/"><span class="fa fa-facebook"></span></a>
                         <a class="twitter" href="https://twitter.com/IASColombia"><span class="fa fa-twitter"></span></a>
@@ -1006,7 +1006,6 @@ Además logró mejorar sus niveles de servicios dando respuestas más oportunas 
               </div>
             </div>
             <div class="footer-bottom">
-              <p>Designed by <a rel="nofollow" href="http://www.markups.io/">MarkUps.io</a></p>
               <p>Copyright &amp;copy; <span t-field="res_company.name" itemprop="name">Company name</span></p>
               <p>Powered by <a class="label label-danger" href="http://www.odoo.com/page/website-builder">Odoo</a></p>
             </div>
