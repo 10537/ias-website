@@ -24,7 +24,7 @@ from openerp.addons.web.http import request
 
 SUPERUSER = 1
 
-class IASWebsite(http.Controller):
+class IASWebsite(openerp.addons.web.controllers.main.Home):
     #------------------------------------------------------
     # View
     #------------------------------------------------------
