@@ -24,11 +24,11 @@ from openerp.addons.web.http import request
 
 SUPERUSER = 1
 
-class IASWebsite(http.Controller):
+class IASWebsite(openerp.addons.web.controllers.main.Home):
     #------------------------------------------------------
     # View
     #------------------------------------------------------
-    @http.route('/ias', type='http', auth="public", website=True)
+    @http.route('/', type='http', auth="public", website=True)
     def ias_home(self, **kw):
         cr, context = request.cr, request.context
         template = 'website.layout'
