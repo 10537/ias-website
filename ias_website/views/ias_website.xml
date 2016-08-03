@@ -5,27 +5,16 @@
     <data>
         <!-- css styles for the theme -->
         <template id="theme_ias" name="Theme IAS">
-            <link id="bootstrap_css" rel='stylesheet' href='/web/static/lib/bootstrap/css/bootstrap.css' t-ignore="true"/>
              <!-- Font Awesome -->
             <link href="/ias_website/static/src/css/font-awesome.css" rel="stylesheet"/>
             <!-- Bootstrap -->
             <link href="/ias_website/static/src/css/bootstrap.css" rel="stylesheet"/>
-            <!-- Slick slider -->
-            <link rel="stylesheet" type="text/css" href="/ias_website/static/src/css/slick.css"/>
             <!-- Fancybox slider -->
             <link rel="stylesheet" href="/ias_website/static/src/css/jquery.fancybox.css" type="text/css" media="screen" />
-            <!-- Animate css -->
-            <link rel="stylesheet" type="text/css" href="/ias_website/static/src/css/animate.css"/>
-             <!-- Theme color -->
-            <link id="switcher" href="/ias_website/static/src/css/theme-color/default.css" rel="stylesheet"/>
             <!-- Boostrap-plugins -->
             <link href="/ias_website/static/src/plugins/bootstrap-fileinput/css/fileinput.css" media="all" rel="stylesheet" type="text/css" />
-            <!-- Preloader -->
-            <link href="/ias_website/static/src/css/preloader.css" rel="stylesheet"/>
             <!-- Main Style -->
             <link href="/ias_website/static/src/css/style.css" rel="stylesheet"/>
-            <!-- Team Phonot Style -->
-            <link href="/ias_website/static/src/css/photo.css" rel="stylesheet"/>
              <!-- Favicon -->
             <link rel="shortcut icon" type="image/icon" href="/ias_website/static/src/images/favicon.ico"/>
 
