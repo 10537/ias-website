@@ -844,7 +844,7 @@ Además logró mejorar sus niveles de servicios dando respuestas más oportunas 
             </t>
 
             <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, , minimum-scale=1"/>
             <meta name="description" content="Ingeniería de Aplicaiones y Software, desarrollo de software, Implementacion de Odoo, Gestion de proyectos
               y outsourcing"/>
             <meta name="keywords" t-att-content="main_object and 'website_meta_keywords' in main_object
