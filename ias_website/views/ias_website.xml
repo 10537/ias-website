@@ -569,7 +569,19 @@
             </section>
             <!-- End Pricing Table section -->
 
-
+            <!-- Start counter section -->
+            <section id="counter">
+            <div class="separator-counter">
+            </div>
+            <div class="counter-overlay">
+              <div class="container">
+                <div class="row">
+                </div>
+              </div>
+            </div>
+            </section>
+            <!-- End counter section -->
+            
             <!-- Start Portfolio section -->
             <section id="portfolio">
             <div class="container">
@@ -684,20 +696,6 @@ Además logró mejorar sus niveles de servicios dando respuestas más oportunas 
                   </div>
                 </div>
             </section>
-
-            <!-- Start counter section -->
-            <section id="counter">
-            <div class="separator-counter">
-            </div>
-            <div class="counter-overlay">
-              <div class="container">
-                <div class="row">
-                </div>
-              </div>
-            </div>
-            </section>
-            <!-- End counter section -->
-
             <!-- Start Testimonial section -->
             <section id="testimonial">
             <img src="/ias_website/static/src/images/testimonial-bg.jpg" alt="img"/>
@@ -834,7 +832,7 @@ Además logró mejorar sus niveles de servicios dando respuestas más oportunas 
             </t>
 
             <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"/>
+            <meta name="viewport" content="initial-scale=1"/>
             <meta name="description" content="Especialistas en desarrollo de software web y móvil bajo los mejores estandares de calidad y última tecnología, Servicios profesionales, Gestión de proyectos"/>
             <meta name="keywords" t-att-content="main_object and 'website_meta_keywords' in main_object
                 and main_object.website_meta_keywords or website_meta_keywords"/>
