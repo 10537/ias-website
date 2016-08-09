@@ -672,7 +672,7 @@ Además logró mejorar sus niveles de servicios dando respuestas más oportunas 
                 <div class="col-md-12">
                   <div>
                     <div class="title-area">
-                        <h2 class="tittle"><img src="/ias_website/static/src/images/odoo-logo.png" height="90%" alt="img"/></h2>
+                        <h1 class="tittle"><img src="/ias_website/static/src/images/odoo-logo.png" height="90%" alt="img"/></h1>
                         <span class="tittle-line"></span>
                     </div>
                     <p/>
@@ -845,7 +845,7 @@ Además logró mejorar sus niveles de servicios dando respuestas más oportunas 
 
             <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, , minimum-scale=1"/>
-            <meta name="description" content="Especialistas en desarrollo de software web y móvil bajo lo mejores estandares de calidad y última tecnología, Servicios profesionales, Gestión de proyectos"/>
+            <meta name="description" content="Especialistas en desarrollo de software web y móvil bajo los mejores estandares de calidad y última tecnología, Servicios profesionales, Gestión de proyectos"/>
             <meta name="keywords" t-att-content="main_object and 'website_meta_keywords' in main_object
                 and main_object.website_meta_keywords or website_meta_keywords"/>
             <meta name="generator" content="Odoo"/>
@@ -951,7 +951,7 @@ Además logró mejorar sus niveles de servicios dando respuestas más oportunas 
                                       <div class="single-wc-content wow fadeInUp">
                                         <span class="fa fa-users wc-icon"></span>
                                         <h4 class="wc-tittle">Employees</h4>
-                                        <p>Team management</p>
+                                        <h5><p>Team management</p></h5>
                                       </div>
                                     </li>
                                     <li>
