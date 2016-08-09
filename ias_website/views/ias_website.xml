@@ -862,6 +862,20 @@ Además logró mejorar sus niveles de servicios dando respuestas más oportunas 
             <t t-call="ias_website.theme_ias"/>
             <t t-call="ias_website.assets_ias_frontend"/>
 
+                <script type="application/ld+json">
+                        {
+                          "@context" : "http://schema.org",
+                          "@type" : "Organization",
+                          "name" : "IAS",
+                          "url" : "https://www.ias.com.co",
+                          "sameAs" : [
+                            "https://twitter.com/IASColombia",
+                            "https://plus.google.com/+Iascolombia/posts",
+                            "https://www.facebook.com/ias.software"
+                         ]
+                        }
+                </script>
+
             </head>
 
             <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
