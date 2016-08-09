@@ -93,7 +93,7 @@
                   <ul id="top-menu" class="nav navbar-nav main-nav menu-scroll">
                     <li><a href="#about">NOSOTROS</a></li>
                     <li><a href="#service">SERVICIOS</a></li>
-                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#portfolio">PORTAFOLIO</a></li>
                     <li><a href="#team">EQUIPO</a></li>
                     <li class="active cv"><a href="#postulate">Postúlate</a></li>
                     <li><a href="#contact">CONTÁCTANOS</a></li>
@@ -524,6 +524,52 @@
               </div>
             </section>
             <!-- End service section -->
+
+
+            <!-- Start Pricing Table section -->
+            <section id="pricing-table">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div>
+                    <div class="title-area">
+                        <h1 class="tittle"><img src="/ias_website/static/src/images/odoo-logo.png" height="90%" alt="img"/></h1>
+                        <span class="tittle-line"></span>
+                    </div>
+                    <p/>
+                    <div>
+                        <p>Odoo es un sistema de ERP integrado que brinda un conjunto de soluciones tecnológicas para la gestión completa de cualquier empresa, automatizando, simplificando, registrando y fusionando las diferentes áreas inherentes a cualquier modelo de negocio.</p>
+                        <dl class="dl-horizontal">
+                            <dt>
+                                Gestiona
+                            </dt>
+                            <dd>Inventario, compras, ventas, contabilidad, facturación, gestión de proyectos, manufactura y más.</dd>
+                            <dt>Impulsa</dt>
+                                <dd>CRM, punto de venta, generador de cotizaciones.</dd>
+                            <dt>Comercia</dt>
+                            <dd>
+                                Construcción de sitio web, tienda online (e-commerce).
+                            </dd>
+                        </dl>
+                        <div class="title-area">
+                            <h3 class="tittle">Beneficios:</h3>
+                            <span class="tittle-line"></span>
+                        </div>
+                        <p>
+                            <li>Más de 2000 aplicaciones de negocio certificadas</li>
+                            <li>Código fuente compartido en Odoo</li>
+                            <li>Capacidad de adaptación a negocios crecientes y cambiantes</li>
+                            <li>Aplicaciones de negocio 100% basados en la Web</li>
+                        </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </section>
+            <!-- End Pricing Table section -->
+
+
             <!-- Start Portfolio section -->
             <section id="portfolio">
             <div class="container">
@@ -596,19 +642,6 @@ Además logró mejorar sus niveles de servicios dando respuestas más oportunas 
                             </div>
                           </article>
                         </div>
-                        <div class="col-md-4">
-                          <article class="single-from-blog">
-                            <div class="blog-title">
-                                <center><h2><img alt="imagen" src="/ias_website/static/src/images/metro-logo.png" width="20%" height="10%"/></h2></center>
-                            </div>
-                            <p style="text-align:justify">Sistema de control a la compra del Tiquete Estudiantil para el Metro de Medellín</p>
-                            <p style="text-align:justify">El sistema para venta de Tiquetes Estudiantiles Metro es un aplicativo web mediante
-                                el cual se permite al Metro de Medellín gestionar este plan social controlando su uso por parte de los estudiantes
-                                del área metropolitana.</p>
-                            <div class="blog-footer">
-                            </div>
-                          </article>
-                        </div>
                       </div>
                     </div>
 
@@ -664,49 +697,6 @@ Además logró mejorar sus niveles de servicios dando respuestas más oportunas 
             </div>
             </section>
             <!-- End counter section -->
-
-            <!-- Start Pricing Table section -->
-            <section id="pricing-table">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12">
-                  <div>
-                    <div class="title-area">
-                        <h1 class="tittle"><img src="/ias_website/static/src/images/odoo-logo.png" height="90%" alt="img"/></h1>
-                        <span class="tittle-line"></span>
-                    </div>
-                    <p/>
-                    <div>
-                        <p>Odoo es un sistema de ERP integrado que brinda un conjunto de soluciones tecnológicas para la gestión completa de cualquier empresa, automatizando, simplificando, registrando y fusionando las diferentes áreas inherentes a cualquier modelo de negocio.</p>
-                        <dl class="dl-horizontal">
-                            <dt>
-                                Gestiona
-                            </dt>
-                            <dd>Inventario, compras, ventas, contabilidad, facturación, gestión de proyectos, manufactura y más.</dd>
-                            <dt>Impulsa</dt>
-                                <dd>CRM, punto de venta, generador de cotizaciones.</dd>
-                            <dt>Comercia</dt>
-                            <dd>
-                                Construcción de sitio web, tienda online (e-commerce).
-                            </dd>
-                        </dl>
-                        <div class="title-area">
-                            <h3 class="tittle">Beneficios:</h3>
-                            <span class="tittle-line"></span>
-                        </div>
-                        <p>
-                            <li>Más de 2000 aplicaciones de negocio certificadas</li>
-                            <li>Código fuente compartido en Odoo</li>
-                            <li>Capacidad de adaptación a negocios crecientes y cambiantes</li>
-                            <li>Aplicaciones de negocio 100% basados en la Web</li>
-                        </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            </section>
-            <!-- End Pricing Table section -->
 
             <!-- Start Testimonial section -->
             <section id="testimonial">
