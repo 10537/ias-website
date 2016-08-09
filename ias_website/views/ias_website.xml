@@ -867,7 +867,7 @@ Además logró mejorar sus niveles de servicios dando respuestas más oportunas 
                           "@context" : "http://schema.org",
                           "@type" : "Organization",
                           "name" : "IAS",
-                          "url" : "https://www.ias.com.co",
+                          "url" : "https://52.91.252.118",
                           "sameAs" : [
                             "https://twitter.com/IASColombia",
                             "https://plus.google.com/+Iascolombia/posts",
