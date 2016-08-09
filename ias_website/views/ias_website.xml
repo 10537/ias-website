@@ -581,7 +581,7 @@
             </div>
             </section>
             <!-- End counter section -->
-            
+
             <!-- Start Portfolio section -->
             <section id="portfolio">
             <div class="container">
@@ -834,8 +834,7 @@ Además logró mejorar sus niveles de servicios dando respuestas más oportunas 
             <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
             <meta name="viewport" content="initial-scale=1"/>
             <meta name="description" content="Especialistas en desarrollo de software web y móvil bajo los mejores estandares de calidad y última tecnología, Servicios profesionales, Gestión de proyectos"/>
-            <meta name="keywords" t-att-content="main_object and 'website_meta_keywords' in main_object
-                and main_object.website_meta_keywords or website_meta_keywords"/>
+            <meta name="keywords" content="software, desarrollo web, odoo, erp, crm, scrum, methodology, agile, desarrollo movil, project management"/>
             <meta name="generator" content="Odoo"/>
             <title><t t-esc="title"/></title>
 
