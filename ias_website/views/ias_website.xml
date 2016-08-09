@@ -459,7 +459,7 @@
                             <li class="col-md-3 col-sm-6">
                               <div class="single-service wow slideInUp">
                                 <span class="fa fa-edit service-icon"></span>
-                                <h4 class="service-title">Desarrollo a la medida</h4>
+                                <h4 class="service-title">Desarrollo Web</h4>
                                 <p>Lo acompañamos en la creación de soluciones de negocio con planeación, definición, diseño y construcción de aplicaciones empresariales ajustadas a la medida.</p>
                               </div>
                             </li>
@@ -473,40 +473,9 @@
                             </li>
                             <li class="col-md-3 col-sm-6">
                               <div class="single-service wow slideInUp">
-                                <span class="fa fa-sitemap service-icon"></span>
-                                <h4 class="service-title">Desarrollo Web 2.0</h4>
-                                <p>Planeamos, diseñamos e implementamos portales web bajo las mejores prácticas de TI.</p>
-                              </div>
-                            </li>
-                            <li class="col-md-3 col-sm-6">
-                              <div class="single-service wow slideInUp">
-                                <span class="fa fa-users service-icon"></span>
-                                <h4 class="service-title">Outsourcing - Staffing</h4>
-                                <p>Proveemos excelentes profesionales para su empresa, que
-                                le prestaran el apoyo necesario para lograr sus objectivos.</p>
-                              </div>
-                            </li>
-                            <li class="col-md-3 col-sm-6">
-                              <div class="single-service wow slideInUp">
-                                <span class="fa fa-cogs service-icon"></span>
-                                <h4 class="service-title">Mantemiento y Soporte</h4>
-                                <p>Le brindamos a su empresa la continuidad del negocio con
-                                    procesos de alta calidad.</p>
-                              </div>
-                            </li>
-                            <li class="col-md-3 col-sm-6">
-                              <div class="single-service wow slideInUp">
                                 <span class="fa fa-user-secret service-icon"></span>
                                 <h4 class="service-title">Gestión de Proyectos</h4>
                                 <p>Aseguramos la implementación de sus aplicaciones por medio de expertos certificados que ayudan a realizar la gestión por medio de un aporte metodológico, preciso y personalizado.</p>
-                              </div>
-                            </li>
-                            <li class="col-md-3 col-sm-6">
-                              <div class="single-service wow slideInUp">
-                                <span class="fa fa-comment-o service-icon"></span>
-                                <h4 class="service-title">Consultoría</h4>
-                                <p>Lo acompañamos en sus procesos brindandole el apoyo profesional
-                                    que necesitas para avanzar en su negocio.</p>
                               </div>
                             </li>
                             <li class="col-md-3 col-sm-6">
