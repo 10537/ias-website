@@ -359,10 +359,10 @@
                           <div class="title-area">
                             <h2 class="tittle">Sobre <span>I.A.S.</span></h2>
                             <span class="tittle-line"></span>
-                            <p>Somos especialistas en desarrollo de software a la medida. Desde hace 13 años ayudamos a las empresas a ser más competitivas.
-                                Es nuestra premisa de buscar maximizar los beneficios del uso de aplicaciones
-                                la que han hecho que grandes compañías del país optimicen sus procesos de negocio,
-                                buscando siempre que sus objetivos empresariales vayan en sintonía con los lineamientos técnicos.</p>
+                            <p>Somos especialistas en desarrollo de software a la medida. Desde el 2003 ayudamos a las empresas
+                                a ser más competitivas. Es nuestra premisa de buscar maximizar los beneficios del uso de aplicaciones
+                                la que han hecho que grandes compañías del país optimicen sus procesos de negocio, buscando siempre
+                                que sus objetivos empresariales vayan en sintonía con los lineamientos técnicos.</p>
                           </div>
                         </div>
                       </div>
@@ -460,29 +460,32 @@
                               <div class="single-service wow slideInUp">
                                 <span class="fa fa-edit service-icon"></span>
                                 <h4 class="service-title">Desarrollo Web</h4>
-                                <p>Lo acompañamos en la creación de soluciones de negocio con planeación, definición, diseño y construcción de aplicaciones empresariales ajustadas a la medida.</p>
+                                <p>Lo acompañamos en la creación de soluciones de negocio con planeación, definición, diseño y construcción
+                                    de aplicaciones empresariales ajustadas a la medida y pensadas en el futuro de su empresa.</p>
                               </div>
                             </li>
                             <li class="col-md-3 col-sm-6">
                               <div class="single-service wow slideInUp">
                                 <span class="fa fa-mobile service-icon"></span>
                                 <h4 class="service-title">Desarrollo Móvil</h4>
-                                <p style="font-size:23px;">Realizamos excelentes aplicaciones móviles basados
-                                    en los últimos conceptos de usabilidad.</p>
+                                <p style="font-size:23px;">Realizamos aplicaciones móviles basados en los últimos conceptos de usabilidad mediante
+                                    un equipo dedicado a la construcción y a analizar cada aspecto del proceso de diseño, experiencia de usuario,
+                                    pruebas y producción.</p>
                               </div>
                             </li>
                             <li class="col-md-3 col-sm-6">
                               <div class="single-service wow slideInUp">
                                 <span class="fa fa-user-secret service-icon"></span>
                                 <h4 class="service-title">Gestión de Proyectos</h4>
-                                <p>Aseguramos la implementación de sus aplicaciones por medio de expertos certificados que ayudan a realizar la gestión por medio de un aporte metodológico, preciso y personalizado.</p>
+                                <p>Aseguramos la implementación de sus aplicaciones por medio de expertos certificados que ayudan a realizar la gestión
+                                    mediante un aporte metodológico ÁGIL,  preciso y personalizado.</p>
                               </div>
                             </li>
                             <li class="col-md-3 col-sm-6">
                               <div class="single-service wow slideInUp">
                                 <span class="fa fa-building service-icon"></span>
                                 <h4 class="service-title">Odoo ERP</h4>
-                                <p>Un software de gestión con todo lo que necesita y una experiencia de calidad suprema para el usuario.</p>
+                                <p>El software de gestión con mayor crecimiento a nivel mundial.</p>
                               </div>
                             </li>
                         </ul>
