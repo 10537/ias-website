@@ -164,17 +164,6 @@
                             <span>Desarrolladora de Negocios</span>
                           </div>
                         </li>
-                        <li>
-                        <div id="content" class="team-item">
-                            <div class="foto"><img alt="imagen" src="/ias_website/static/src/images/team/Yuerly.jpg" /></div>
-                            <div class="frase"><img alt="imagen" src="/ias_website/static/src/images/team/Yuerly.png" /></div>
-                            <div class="aro"><img alt="imagen" src="/ias_website/static/src/images/aro.png" /></div>
-                        </div>
-                          <div class="team-address">
-                            <p>Yuerly</p>
-                            <span>Desarrolladora de Negocios</span>
-                          </div>
-                        </li>
                         </ul>
                     </div>
                     <div class="title-area" style="margin-top:30px;">
@@ -475,7 +464,7 @@
                             </li>
                             <li class="col-md-3 col-sm-6">
                               <div class="single-service wow slideInUp">
-                                <span class="fa fa-user-secret service-icon"></span>
+                                <span class="fa fa-users service-icon"></span>
                                 <h4 class="service-title">Gestión de Proyectos</h4>
                                 <p>Aseguramos la implementación de sus aplicaciones por medio de expertos certificados que ayudan a realizar la gestión
                                     mediante un aporte metodológico ÁGIL,  preciso y personalizado.</p>
@@ -568,12 +557,13 @@
                     <div class="from-blog-content">
                       <div class="row">
                         <div class="col-md-4">
-                          <article class="single-from-blog" style="border-color: black !important;">
+                          <article class="single-from-blog">
                             <div class="blog-title">
-                              <h2><img alt="imagen" src="/ias_website/static/src/images/bancolombia-logo.png" width="100%" height="40%"/></h2>
+                                <center><h2><img alt="imagen" src="/ias_website/static/src/images/ume-logo.png" width="45%" height="20%"/></h2></center>
                             </div>
-                            <p style="text-align:justify">Nuestros expertos han logrado por más de 11 años realizar a través de nuevas aplicaciones y el mantenimiento evolutivo de las mismas, que Bancolombia mejore la eficiencia en la aprobación de crédito y tarjetas de crédito bajo escenarios de negocio complejos.
-Además logró mejorar sus niveles de servicios dando respuestas más oportunas a los reclamos de los  usuarios.</p>
+                            <p style="text-align:justify">Nuestros expertos capacitaron un equipo de desarrollo de la UdeM y continuamos haciendo en conjunto mantenimiento y ejecución de nuevas aplicaciones y proyectos.</p>
+                            <p style="text-align:justify">Realizamos una aplicación que permite a la Universidad de Medelllin conocer los riesgos de no permanencia de un profesional dentro de la universidad en los diferentes periodos.
+                                Utilizamos algoritmia que incluye variables de tipo cualitativo y cuantitativo  como: materias perdidas , canceladas, faltas de asistencia entre otros.</p>
                             <div class="blog-footer">
                             </div>
                           </article>
@@ -583,18 +573,18 @@ Además logró mejorar sus niveles de servicios dando respuestas más oportunas 
                             <div class="blog-title">
                                 <h2><img alt="imagen" src="/ias_website/static/src/images/sura-logo.jpg" width="100%" height="40%"/></h2>
                             </div>
-                            <p style="text-align:justify">• Lideramos equipos de desarrollo mediante la metodología scrum para que aplicaciones como SOAT después de 9 años tengan éxito, continuidad y  mantenimiento evolutivo año tras año.</p>
-                            <p style="text-align: justify">• Creamos aplicaciones que soportan  altas operaciones y gestión de tareas de diagnóstico y demás servicios prestados en los centros de AUTOSURA del país.</p>
+                            <p style="text-align:justify">Lideramos equipos de desarrollo mediante la metodología scrum para que aplicaciones como SOAT después de 9 años tengan éxito, continuidad y  mantenimiento evolutivo año tras año.</p>
+                            <p style="text-align: justify">Creamos aplicaciones que soportan  altas operaciones y gestión de tareas de diagnóstico y demás servicios prestados en los centros de AUTOSURA del país.</p>
                             <div class="blog-footer">
                             </div>
                           </article>
                         </div>
                         <div class="col-md-4">
-                          <article class="single-from-blog">
+                          <article class="single-from-blog" style="border-color: black !important;">
                             <div class="blog-title">
-                                <h2><img alt="imagen" src="/ias_website/static/src/images/logo-mova.png" width="100%" height="10%"/></h2>
+                              <h2><img alt="imagen" src="/ias_website/static/src/images/bancolombia-logo.png" width="100%" height="40%"/></h2>
                             </div>
-                            <p style="text-align:justify">Realizamos para Parque Explora una plataforma que permite la integración de no solo maestros, sino que cualquiera interesado en la iniciativa MOVA, por medio de gestión de eventos, noticias y recursos que permiten, gracias algoritmos de recomendación, encontrar el contenido más apropiado para cualquier usuario.</p>
+                            <p style="text-align:justify">Nuestros expertos han logrado desde el 2003 realiza a través de nuevas aplicaciones y el mantenimiento evolutivo de las mismas, que Bancolombia mejore la eficiencia en la aprobación de crédito y tarjetas de crédito bajo escenarios de negocio complejos. Además logró mejorar sus niveles de servicios dando respuestas más oportunas a los reclamos de los usuarios.</p>
                             <div class="blog-footer">
                             </div>
                           </article>
@@ -604,11 +594,9 @@ Además logró mejorar sus niveles de servicios dando respuestas más oportunas 
                         <div class="col-md-4">
                           <article class="single-from-blog">
                             <div class="blog-title">
-                                <center><h2><img alt="imagen" src="/ias_website/static/src/images/udem.png" width="50%" height="25%"/></h2></center>
+                                <center><h2><img alt="imagen" src="/ias_website/static/src/images/logo-explora.png" width="50%" height="10%"/></h2></center>
                             </div>
-                            <p style="text-align:justify">• Nuestros expertos capacitaron un equipo de desarrollo de la UdeM y continuamos haciendo en conjunto mantenimiento y ejecución de nuevas aplicaciones y proyectos.</p>
-                            <p style="text-align:justify">• Realizamos una aplicación que permite a la Universidad de Medelllin conocer los riesgos de no permanencia de un profesional dentro de la universidad en los diferentes periodos.
-                                Utilizamos algoritmia que incluye variables de tipo cualitativo y cuantitativo  como: materias perdidas , canceladas, faltas de asistencia entre otros.</p>
+                            <p style="text-align:justify">Sistema que tiene la capacidad de hacer cálculos de manera masiva para brindar la ruta más óptima y así entregarle al Parque una optimización de recursos y tiempo.</p>
                             <div class="blog-footer">
                             </div>
                           </article>
@@ -619,9 +607,7 @@ Además logró mejorar sus niveles de servicios dando respuestas más oportunas 
                                 <h2><img alt="imagen" src="/ias_website/static/src/images/auteco-logo.png" width="50%" height="35%"/></h2>
                             </div>
                             <p style="text-align:justify">Sistema de Auteco Optima 2</p>
-                            <p style="text-align:justify">Software desarrollado para soportar los
-                                procesos de ensamble, programación de ensamble y programación de pintura para motocicletas y
-                                motocarros. El proyecto tuvo una duración de 5 meses.</p>
+                            <p style="text-align:justify">Software desarrollado para soportar los procesos de ensamble, programación de ensamble y programación de pintura para motocicletas y motocarros.</p>
                             <div class="blog-footer">
                             </div>
                           </article>
@@ -695,7 +681,7 @@ Además logró mejorar sus niveles de servicios dando respuestas más oportunas 
                           </div>
                           <!-- single slide -->
                           <div class="single-slide">
-                            <p>Durante 13 años I.A.S. ha demostrado ser una empresa seria, confiable y con una capacidad técnica que vale la pena resaltar.</p>
+                            <p>Desde el 2003 I.A.S. ha demostrado ser una empresa seria, confiable y con una capacidad técnica que vale la pena resaltar.</p>
                             <div class="single-testimonial">
                               <img class="testimonial-thumb" src="/ias_website/static/src/images/testimonial-image2.png" alt="img"/>
                               <p>Carlos Gallón</p>

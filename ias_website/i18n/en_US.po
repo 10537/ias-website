@@ -1,0 +1,623 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* ias_website
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-16 17:49+0000\n"
+"PO-Revision-Date: 2016-08-16 17:49+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid ".Net Framework"
+msgstr ".Net Framework"
+
+#. module: ias_website
+#: view:website:ias_website.403
+msgid "403: Forbidden"
+msgstr "403: Forbidden"
+
+#. module: ias_website
+#: view:website:ias_website.404
+msgid "404: Page not found!"
+msgstr "404: Page not found!"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "APAS"
+msgstr "PASS"
+
+#. module: ias_website
+#: view:website:ias_website.my_team
+msgid "Administrativo"
+msgstr "Administrative"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Algunos casos de éxito"
+msgstr "Success stories"
+
+#. module: ias_website
+#: view:website:ias_website.my_team
+msgid "Analistas y Desarrolladores FullStack"
+msgstr "Analysts and FullStack Developers"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Android"
+msgstr "Android"
+
+#. module: ias_website
+#: view:website:ias_website.my_team
+msgid "Andrés"
+msgstr "Andrés"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Aplicaciones de negocio 100% basados en la Web"
+msgstr "Bussiness apps based 100% on the Web"
+
+#. module: ias_website
+#: view:website:ias_website.my_team
+msgid "Arlex"
+msgstr "Arlex"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Aseguramos la implementación de sus aplicaciones por medio de expertos certificados que ayudan a realizar la gestión\n"
+"                                    mediante un aporte metodológico ÁGIL,  preciso y personalizado."
+msgstr "We ensure the implementation of your applications through certified experts that help with management\n"
+"                                    through an agile, precise and personalized methodological contribution."
+
+#. module: ias_website
+#: view:website:ias_website.my_team
+msgid "Asistente Administrativo"
+msgstr "Administrative Assistant"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "BLE"
+msgstr "BLES"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Beneficios:"
+msgstr "Benefits:"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "CONF"
+msgstr "REL"
+
+#. module: ias_website
+#: view:website:ias_website.theme_menu
+msgid "CONTÁCTANOS"
+msgstr "CONTACT US"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "CRM, punto de venta, generador de cotizaciones."
+msgstr "CRM, POS, Quotations."
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Capacidad de adaptación a negocios crecientes y cambiantes"
+msgstr "Ability to adapt to growing and changing business."
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Carlos Gallón"
+msgstr "Carlos Gallón"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Carrera 82 C No 30 A 120"
+msgstr "Carrera 82 C No 30 A 120"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Centro Comercial Los Molinos."
+msgstr "Centro Comercial Los Molinos."
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Comercia"
+msgstr "Comercia"
+
+#. module: ias_website
+#: view:website:ias_website.my_team
+msgid "Conoce a nuestro equipo"
+msgstr "Meet our team"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Construcción de sitio web, tienda online (e-commerce)."
+msgstr "Your own website and e-commerce."
+
+#. module: ias_website
+#: view:website:ias_website.403
+#: view:website:ias_website.404
+msgid "Contact Us"
+msgstr "Contact Us"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Contáctanos"
+msgstr "Contact Us"
+
+#. module: ias_website
+#: view:website:ias_website.my_team
+msgid "Cristian"
+msgstr "Cristian"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Código fuente compartido en Odoo"
+msgstr "Source code shared with Odoo"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "DORE"
+msgstr "TOR"
+
+#. module: ias_website
+#: view:website:ias_website.my_team
+msgid "David"
+msgstr "David"
+
+#. module: ias_website
+#: view:website:ias_website.my_team
+msgid "Desarrolladora de Negocios"
+msgstr "Business developer"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Desarrollo Móvil"
+msgstr "Movile Development"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Desarrollo Web"
+msgstr "Web Development"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Desde el 2003 I.A.S. ha demostrado ser una empresa seria, confiable y con una capacidad técnica que vale la pena resaltar."
+msgstr "Since 2003 I.A.S. It has proven to be a serious , reliable company and a technical capacity worth to be highlighted."
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Director de TI, Seguros Generales, Suramericana"
+msgstr "IT Manager - Suramericana"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "ENVIAR"
+msgstr "SEND"
+
+#. module: ias_website
+#: view:website:ias_website.theme_menu
+msgid "EQUIPO"
+msgstr "TEAM"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "El software de gestión con mayor crecimiento a nivel mundial."
+msgstr "Management software fastest growing worldwide."
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Email"
+msgstr "Email"
+
+#. module: ias_website
+#: view:website:ias_website.my_team
+msgid "Emerson"
+msgstr "Emerson"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "En I.A.S. estamos comprometidos en construir un sector IT con mayor calidad y compromiso, esto con el fin de brindarle a nuestros clientes experiencias satisfactorias."
+msgstr "In I.A.S. We are committed to building an IT sector with the highest quality and commitment , all this in order to provide our customers with satisfying experiences."
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Enviar un Mensaje"
+msgstr "Send a message"
+
+#. module: ias_website
+#: view:website:ias_website.my_team
+msgid "Gabriel"
+msgstr "Gabriel"
+
+#. module: ias_website
+#: view:website:ias_website.my_team
+msgid "Gerente General"
+msgstr "CEO"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Gestiona"
+msgstr "Management"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Gestión de Proyectos"
+msgstr "Project management"
+
+#. module: ias_website
+#: view:website:ias_website.403
+#: view:website:ias_website.404
+msgid "Homepage"
+msgstr "Homepage"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "I.A.S."
+msgstr "I.A.S."
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "I.A.S. se ha destacado por su profesionalismo y compromiso durante màs de 5 años han trabajo de la mano y han hecho crecer a la universidad de Medellin."
+msgstr "I.A.S. It has been highlighted for their professionalism and commitment. For over 5 years we have worked together and have grown the University of Medellin."
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "IAS"
+msgstr "IAS"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "IOS"
+msgstr "IOS"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Impulsa"
+msgstr "boost"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Inventario, compras, ventas, contabilidad, facturación, gestión de proyectos, manufactura y más."
+msgstr "Inventory, purchasing , sales, accounting , billing , project management , manufacturing and more."
+
+#. module: ias_website
+#: view:website:ias_website.my_team
+msgid "Jaime"
+msgstr "Jaime"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Java"
+msgstr "Java"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Javascript"
+msgstr "Javascript"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Jefe División Informática UdeM"
+msgstr "Head of IT department"
+
+#. module: ias_website
+#: view:website:ias_website.my_team
+msgid "Jhoan G."
+msgstr "Jhoan G."
+
+#. module: ias_website
+#: view:website:ias_website.my_team
+msgid "José"
+msgstr "José"
+
+#. module: ias_website
+#: view:website:ias_website.my_team
+msgid "Juan Fernando"
+msgstr "Juan Fernando"
+
+#. module: ias_website
+#: view:website:ias_website.my_team
+msgid "Lina"
+msgstr "Lina"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Lo acompañamos en la creación de soluciones de negocio con planeación, definición, diseño y construcción\n"
+"                                    de aplicaciones empresariales ajustadas a la medida y pensadas en el futuro de su empresa."
+msgstr "We accompany you in creating business solutions with planning , definition, design and construction\n"
+"                                    of enterprise applications tailored to fit and designed in the future of your company."
+
+#. module: ias_website
+#: view:website:ias_website.my_team
+msgid "Mafe"
+msgstr "Mafe"
+
+#. module: ias_website
+#: view:website:ias_website.403
+#: view:website:ias_website.404
+msgid "Maybe you were looking for one of these popular pages ?"
+msgstr "Maybe you were looking for one of these popular pages ?"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Medellín - Colombia"
+msgstr "Medellín - Colombia"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Más de 2000 aplicaciones de negocio certificadas"
+msgstr "More than 2,000 business applications certified."
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "NNOV"
+msgstr "NNOV"
+
+#. module: ias_website
+#: view:website:ias_website.theme_menu
+msgid "NOSOTROS"
+msgstr "ABOUT US"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Nombre"
+msgstr "Name"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Nuestros expertos han logrado desde el 2003 realiza a través de nuevas aplicaciones y el mantenimiento evolutivo de las mismas, que Bancolombia mejore la eficiencia en la aprobación de crédito y tarjetas de crédito bajo escenarios de negocio complejos. Además logró mejorar sus niveles de servicios dando respuestas más oportunas a los reclamos de los usuarios."
+msgstr "Our experts have reached since 2003 made ​​through new applications and evolutionary maintenance thereof , Bancolombia improved efficiency in credit approval and credit cards under complex business scenarios . It also managed to improve their levels of services giving more appropriate answers to users complaints."
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Odoo ERP"
+msgstr "Odoo ERP"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Odoo es un sistema de ERP integrado que brinda un conjunto de soluciones tecnológicas para la gestión completa de cualquier empresa, automatizando, simplificando, registrando y fusionando las diferentes áreas inherentes a cualquier modelo de negocio."
+msgstr "Odoo is an integrated ERP system that provides a set of technologies solutions for the complete management of any enterprise, automating, simplifying, registering and merging the differents areas inherent to any business model."
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Oficina 1409."
+msgstr "Oficina 1409."
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Oficina Principal:"
+msgstr "Main Office:"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Olga Stella Quintero"
+msgstr "Olga Stella Quintero"
+
+#. module: ias_website
+#: view:website:ias_website.my_team
+msgid "Oscar"
+msgstr "Oscar"
+
+#. module: ias_website
+#: view:website:ias_website.theme_menu
+msgid "PORTAFOLIO"
+msgstr "PORTFOLIO"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "PROFES"
+msgstr "PROFESS"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+#: view:website:ias_website.theme_menu
+msgid "Postúlate"
+msgstr "Apply"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Realizamos aplicaciones móviles basados en los últimos conceptos de usabilidad mediante\n"
+"                                    un equipo dedicado a la construcción y a analizar cada aspecto del proceso de diseño, experiencia de usuario,\n"
+"                                    pruebas y producción."
+msgstr "We carry out mobile applications based on the latest concepts of usability\n"
+"                                    by a team dedicated to the construction and to analyze every aspect of the design process, user experience, \n"
+"                                    testing and production."
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Sistema que tiene la capacidad de hacer cálculos de manera masiva para brindar la ruta más óptima y así entregarle al Parque una optimización de recursos y tiempo."
+msgstr "A system which has the capacity to calculate in  a massive way giving the optimum path and  delivering  the park a resource and time optimization."
+
+#. module: ias_website
+#: view:website:ias_website.my_team
+msgid "Rosalba"
+msgstr "Rosalba"
+
+#. module: ias_website
+#: view:website:ias_website.theme_menu
+msgid "SERVICIOS"
+msgstr "SERVICES"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "SOMOS"
+msgstr "WE ARE"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "SQL/PL SQL"
+msgstr "SQL/PL SQL"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Seleccionar archivo"
+msgstr "Choose file"
+
+#. module: ias_website
+#: view:website:ias_website.my_team
+msgid "Sergio"
+msgstr "Sergio"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Servicios"
+msgstr "Services"
+
+#. module: ias_website
+#: view:website:ias_website.my_team
+msgid "Shirly"
+msgstr "Shirly"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Sistema de Auteco Optima 2"
+msgstr "Auteco's System Optima 2"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Sobre"
+msgstr "About"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Software desarrollado para soportar los procesos de ensamble, programación de ensamble y programación de pintura para motocicletas y motocarros."
+msgstr "Software developed to support assembly processes, assembly programming and paint programming for motorcycles and motorcars."
+
+#. module: ias_website
+#: view:website:ias_website.my_team
+msgid "Somos el principal valor de nuestra compañía."
+msgstr "We are the main value of our company."
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Somos especialistas en desarrollo de software a la medida. Desde el 2003 ayudamos a las empresas\n"
+"                                a ser más competitivas. Es nuestra premisa de buscar maximizar los beneficios del uso de aplicaciones\n"
+"                                la que han hecho que grandes compañías del país optimicen sus procesos de negocio, buscando siempre\n"
+"                                que sus objetivos empresariales vayan en sintonía con los lineamientos técnicos."
+msgstr "We are specialists in Developing custom software. Since 2003 we help companies to become more competitive. It is our premise of seeking to maximize the benefits of using applications that have made the largest companies optimize their business processes, always seeking their business goals go in line with the technical requirements."
+
+#. module: ias_website
+#: view:website:ias_website.my_team
+msgid "Tatiana"
+msgstr "Tatiana"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Telefono"
+msgstr "Phone"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Telefono fijo: (4) 6051565"
+msgstr "Office Phone: (4) 6051565"
+
+#. module: ias_website
+#: view:website:ias_website.403
+msgid "The page you were looking for could not be authorized."
+msgstr "The page you were looking for could not be authorized."
+
+#. module: ias_website
+#: view:website:ias_website.404
+msgid "The page you were looking for could not be found; it is possible you have\n"
+"                        typed the address incorrectly, but it has most probably been removed due\n"
+"                        to the recent website reorganisation."
+msgstr "The page you were looking for could not be found; it is possible you have\n"
+"                        typed the address incorrectly, but it has most probably been removed due\n"
+"                        to the recent website reorganisation."
+
+#. module: ias_website
+#: view:website:ias_website.theme_menu
+msgid "Toggle navigation"
+msgstr "Toggle navigation"
+
+#. module: ias_website
+#: view:website:ias_website.my_team
+msgid "Wilfer"
+msgstr "Wilfer"
+
+#. module: ias_website
+#: view:website:ias_website.my_team
+msgid "Yuerly"
+msgstr "Yuerly"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "client logo"
+msgstr "client logo"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+#: view:website:ias_website.my_team
+msgid "imagen"
+msgstr "image"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "img"
+msgstr "img"
+
+#. module: ias_website
+#: view:website:ias_website.theme_menu
+msgid "logo"
+msgstr "logo"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "¿Que dicen nuestros clientes de nosotros?"
+msgstr "¿What say the people about us?"
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Únase a nosotros y ayudenos a transformar el mercado empresarial."
+msgstr "Join us and help us to transform the enterprise market."
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Creamos aplicaciones que soportan  altas operaciones y gestión de tareas de diagnóstico y demás servicios prestados en los centros de AUTOSURA del país."
+msgstr "We create applications that support high management operations and diagnostic tasks and other services provided in  AUTOSURA centers in the country."
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Lideramos equipos de desarrollo mediante la metodología scrum para que aplicaciones como SOAT después de 9 años tengan éxito, continuidad y  mantenimiento evolutivo año tras año."
+msgstr "We lead development teams through the scrum methodology for applications such as SOAT after 9 years to succeed, continuity and ongoing maintenance year after year."
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Nuestros expertos capacitaron un equipo de desarrollo de la UdeM y continuamos haciendo en conjunto mantenimiento y ejecución de nuevas aplicaciones y proyectos."
+msgstr "Our experts have trained development teams from UdeM and we together continue to do maintenance and implementation of new applications and projects."
+
+#. module: ias_website
+#: view:website:ias_website.body_website
+msgid "Realizamos una aplicación que permite a la Universidad de Medelllin conocer los riesgos de no permanencia de un profesional dentro de la universidad en los diferentes periodos.\n"
+"                                Utilizamos algoritmia que incluye variables de tipo cualitativo y cuantitativo  como: materias perdidas , canceladas, faltas de asistencia entre otros."
+msgstr "We Performed an application that allows University of MEDELLÍN know the risks of non-permanence of a professional within the university in different periods.\n"
+"                                 with algorithms including qualitative and quantitative type variables,  such as: specific subjects lost, canceled, absences among others."
+
+#. module: website
+#: view:website:website.layout
+msgid "Brindamos innovación, experiencia y calidad en nuestras soluciones"
+msgstr "We bring innovation , experience and quality in our solutions"
+
+#. module: website
+#: view:website:website.layout
+msgid "Nuestras soluciones reducen costos operativos, simplifican operaciones y cambian la manera de trabajar de las organizaciones"
+msgstr "Our solutions reduce operating costs, simplify operations and change the way of working of organizations"
+
+#. module: website
+#: view:website:website.layout
+msgid "Nuestros especialistas lograrán por medio de software de calidad que su empresa trabaje más eficientemente"
+msgstr "Our specialists will achieved through quality software that your company work more efficiently"
