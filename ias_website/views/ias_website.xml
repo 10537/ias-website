@@ -886,36 +886,6 @@
                         <div class="col-md-3"/>
                         <div class="col-md-6">
                             <div class="welcome-content">
-                                <ul class="wc-table">
-                                    <li>
-                                      <div class="single-wc-content wow fadeInUp">
-                                        <span class="fa fa-users wc-icon"></span>
-                                        <h4 class="wc-tittle">Employees</h4>
-                                        <h5><p>Team management</p></h5>
-                                      </div>
-                                    </li>
-                                    <li>
-                                      <div class="single-wc-content wow fadeInUp">
-                                        <span class="fa fa-line-chart wc-icon"></span>
-                                        <h4 class="wc-tittle">CRM / Sales</h4>
-                                        <p>Sales management</p>
-                                      </div>
-                                    </li>
-                                    <li>
-                                      <div class="single-wc-content wow fadeInUp">
-                                        <span class="fa fa-globe wc-icon"></span>
-                                        <h4 class="wc-tittle">Website</h4>
-                                        <p>Website management</p>
-                                      </div>
-                                    </li>
-                                    <li>
-                                      <div class="single-wc-content wow fadeInUp">
-                                        <span class="fa fa-commenting-o wc-icon"></span>
-                                        <h4 class="wc-tittle">Social</h4>
-                                        <p>Followers and comments</p>
-                                      </div>
-                                    </li>
-                                </ul>
                             </div>
                         </div>
                         <div class="col-md-3"/>
