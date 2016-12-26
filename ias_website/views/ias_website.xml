@@ -195,16 +195,6 @@
                         </li>
                         <li>
                         <div id="content" class="team-item">
-                            <div class="foto"><img alt="imagen" src="/ias_website/static/src/images/team/mafe.jpg" /></div>
-                            <div class="frase"><img alt="imagen" src="/ias_website/static/src/images/team/mafe.png" /></div>
-                            <div class="aro"><img alt="imagen" src="/ias_website/static/src/images/aro.png" /></div>
-                        </div>
-                          <div class="team-address">
-                            <p>Mafe</p>
-                          </div>
-                        </li>
-                        <li>
-                        <div id="content" class="team-item">
                             <div class="foto"><img alt="imagen" src="/ias_website/static/src/images/team/Jaime.jpg" /></div>
                             <div class="frase"><img alt="imagen" src="/ias_website/static/src/images/team/Jaime.png" /></div>
                             <div class="aro"><img alt="imagen" src="/ias_website/static/src/images/aro.png" /></div>
@@ -251,16 +241,6 @@
                         </div>
                           <div class="team-address">
                             <p>Jhoan G.</p>
-                          </div>
-                        </li>
-                        <li>
-                        <div id="content" class="team-item">
-                            <div class="foto"><img alt="imagen" src="/ias_website/static/src/images/team/Oscar.jpg" /></div>
-                            <div class="frase"><img alt="imagen" src="/ias_website/static/src/images/team/Oscar.png" /></div>
-                            <div class="aro"><img alt="imagen" src="/ias_website/static/src/images/aro.png" /></div>
-                        </div>
-                          <div class="team-address">
-                            <p>Oscar</p>
                           </div>
                         </li>
                         <li>
