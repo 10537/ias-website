@@ -25,7 +25,7 @@
     'category': 'Others',
     'description': """Template for IAS Website""",
     'website': 'https://www.ias.com.co',
-    'depends': ['base', 'website'],
+    'depends': ['base', 'website', 'hr'],
     'data': [
         'views/ias_website_inherits.xml',
         'views/ias_website.xml'

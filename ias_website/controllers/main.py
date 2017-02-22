@@ -32,9 +32,6 @@ class IASWebsite(openerp.addons.web.controllers.main.Home):
     def ias_home(self, **kw):
         cr, context = request.cr, request.context
         template = 'website.layout'
-        employees = request.registry['hr.employee'].search(
-            cr, SUPERUSER, [('active', '=', True)], context=context)
-        return request.website.render(template, {'home': True,
-                                                 'employees': employees})
+        return request.website.render(template, {'home': True,})
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
