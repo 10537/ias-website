@@ -3,12 +3,12 @@
 -->
 <openerp>
     <data>
-        <delete model="ir.ui.view" id="website.layout_footer_copyright"/>
-        <delete model="ir.ui.view" id="website.layout_logo_show"/>
-        <delete model="ir.ui.view" id="website.editor_head"/>
-        <delete model="ir.ui.view" id="website.show_sign_in"/>
-        <delete model="ir.ui.view" id="website.footer_default"/>
-        <delete model="ir.ui.view" id="website.footer_custom"/>
+        <!--<delete model="ir.ui.view" id="website.layout_footer_copyright"/>-->
+        <!--<delete model="ir.ui.view" id="website.layout_logo_show"/>-->
+        <!--<delete model="ir.ui.view" id="website.editor_head"/>-->
+        <!--<delete model="ir.ui.view" id="website.show_sign_in"/>-->
+        <!--<delete model="ir.ui.view" id="website.footer_default"/>-->
+        <!--<delete model="ir.ui.view" id="website.footer_custom"/>-->
 
 
 <template id="http_error">

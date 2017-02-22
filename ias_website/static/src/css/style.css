@@ -51,7 +51,7 @@ ul{
 }
 a{ 
 	text-decoration: none;
-	color: #2f2f2f;  
+	color: #337ab7;
 }
 a:focus{
 	outline: none;
@@ -61,7 +61,7 @@ h1,h2,h3,h4,h5,h6{
 	font-family: 'Raleway', sans-serif;
 }
 h2 {
-	color: #fff;
+	color: #777;
 	font-size: 30px;
 	font-weight: 700;
 	line-height: 40px;
@@ -909,7 +909,7 @@ img{
 	position: relative;
 	text-align: left;
 	width: 100%;
-	height: 530px;
+	height: 650px;
 	-w-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-ms-transition: all 0.5s;
