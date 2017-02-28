@@ -913,9 +913,9 @@
               <p>Powered by <a class="label label-danger" href="http://www.odoo.com/page/website-builder">Odoo</a></p>
               <p>Employees Login: <a class="label label-success" href="/web/login">Sign Up</a></p>
               <p>
-                <a href="http://discovery.ariba.com/profile/AN01045318652">
-                <img alt="Ver el perfil de I.A.S Ingeniería, Aplicaciones y Software S.A.S. en Ariba Discovery"
-                     border="0" src="https://service.ariba.com/an/p/Ariba/badge_32x32.jpg"/>
+                  <a href="http://discovery.ariba.com/profile/AN01045318652">
+                    <img alt="Ver el perfil de I.A.S Ingeniería, Aplicaciones y Software S.A.S. en Ariba Discovery"
+                         border="0" src="https://service.ariba.com/an/p/Ariba/es/badge_145x30.jpg" />
                 </a>
               </p>
             </div>
