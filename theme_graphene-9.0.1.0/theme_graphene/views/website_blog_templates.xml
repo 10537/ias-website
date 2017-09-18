@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+    <template id="website_blog.opt_blog_rc_follow_us" name="Follow us" priority="4"
+        inherit_id="website_blog.index_right" active="True" customize_show="True">
+        <xpath expr="//div[@id='main_column']" position="attributes">
+            <attribute name="class">col-sm-8</attribute>
+        </xpath>
+        <xpath expr="//div[@id='blog_right_column']" position="inside">
+            <section class="mt32">
+                <h4>Follow us<small t-if="blog">: <t t-esc="blog.name"/></small></h4>
+                <t t-if="blog">
+                    <t t-call="website_mail.follow">
+                        <t t-set="email" t-value="user_id.email"/>
+                        <t t-set="object" t-value="blog"/>
+                    </t>
+                </t>
+                <p class="text-muted mb0 mt16">
+                    Participate on our social stream.
+                </p>
+                <h2 class="mt4">
+                    <a t-att-href="website.social_facebook" t-if="website.social_facebook" style="margin-right: 10px;"><i class="fa fa-facebook-square"/></a>
+                    <a t-att-href="website.social_twitter" t-if="website.social_twitter" style="margin-right: 10px;"><i class="fa fa-twitter"/></a>
+                    <a t-att-href="website.social_linkedin" t-if="website.social_linkedin" style="margin-right: 10px;"><i class="fa fa-linkedin"/></a>
+                    <a t-att-href="website.social_youtube" t-if="website.social_youtube" style="margin-right: 10px;"><i class="fa fa-youtube-play"/></a>
+                    <a t-att-href="website.social_googleplus" t-if="website.social_googleplus" style="margin-right: 10px;"><i class="fa fa-google-plus-square"/></a>
+                    <a t-att-href="website.social_github" t-if="website.social_github"><i class="fa fa-github"/></a>
+                </h2>
+            </section>
+        </xpath>
+    </template>
+    <template id="website_blog.opt_blog_rc_blogs" name="Our Blogs" priority="6"
+        inherit_id="website_blog.index_right" active="True" customize_show="True">
+    <xpath expr="//div[@id='main_column']" position="attributes">
+        <attribute name="class">col-sm-8</attribute>
+    </xpath>
+    <xpath expr="//div[@id='blog_right_column']" position="inside">
+        <section class="mt32 mb32">
+        </section>
+    </xpath>
+</template>
+
+</data>
+</openerp>
